@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG Admission - BSc. Computational Data Analytics - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+                    <a href="https://www.uthm.edu.my/" target="_blank" rel="noopener noreferrer">
+						<img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+					</a>
+                    <div class="logo-text">
+                        <!--<span class="uni-name">Universiti Tun Hussein Onn Malaysia</span>
+                        <span class="dept-name">BSc. Computational Data Analytics</span> -->
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- UPDATED NAVIGATION WITH DROPDOWNS -->
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <!-- UG Program Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active">UG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ug-info.html">Program Info</a></li>
+                            <li><a href="ug-curriculum.html">Curriculum</a></li>
+                            <li><a href="ug-admission.html" class="active">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- PG Program Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">PG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pg-info.html">Program Info</a></li>
+                            <li><a href="pg-curriculum.html">Curriculum</a></li>
+                            <li><a href="pg-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                    
+                    <!-- WBL Experience Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active">WBL Info <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wbl-info.html">About WBL</a></li>
+                            <li><a href="wbl-courses.html">WBL Courses</a></li>
+                            <li><a href="wbl-administration.html" class="active">WBL Administration</a></li>
+							<li><a href="wbl-cohorts.html" class="active">WBL Cohorts</a></li>
+							<li><a href="wbl-module.html">WBL Module</a></li> <!-- NEW ITEM -->
+                            <!-- <li><a href="#">Industry Partners</a></li>
+                            <li><a href="#">Student Testimonials</a></li> -->
+                        </ul>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="apply-btn"><a href="apply.html">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> 
+                <span>UG Program</span> <i class="fas fa-chevron-right"></i> 
+                <span>Admission</span>
+            </div>
+            <h1>Admission Requirements</h1>
+            <p>Bachelor of Science (Computational Data Analytics) with Honours</p>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+        <div class="container">
+
+            <!-- Program Badge -->
+            <div class="program-badge">
+                <span class="badge ug">Undergraduate</span>
+                <span class="badge mode">2u2i Work-Based Learning</span>
+				<span class="badge intake">Intake: September/OCtober every year</span>
+            </div>
+
+            <!-- 5. SPECIFIC PROGRAM ADMISSION REQUIREMENTS -->
+            <section class="section admission-section">
+                <div class="section-header">
+                    <span class="section-tag">Requirements</span>
+                    <h2>Specific Program Admission Requirements (FOR MALAYSIAN)</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Candidates must meet the academic and English language requirements based on their qualification stream.</p>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="admission-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 20%;">Category</th>
+                                <th style="width: 40%;">Academic Requirements</th>
+                                <th style="width: 20%;">MUET Requirements</th>
+                                <th style="width: 20%;">Additional Requirements</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- STPM Science Stream -->
+                            <tr>
+                                <td><strong>STPM Applicants<br>(Science Stream)</strong></td>
+                                <td>
+                                    Obtained at least <strong>Grade C (GP 2.00)</strong> at the STPM level in the following subjects:<br><br>
+                                    • Mathematics (T)<br><br>
+                                    <strong>AND</strong><br><br>
+                                    • Physics / Chemistry / Biology / Information and Communications Technology
+                                </td>
+                                <td>Obtained at least <strong>Band 2.0</strong> in the Malaysian University English Test (MUET), within the validity period at the time of application.</td>
+                                <!-- ROWSPAN MUST BE IN THE FIRST ROW -->
+                                <td rowspan="5" class="additional-req">
+                                    <i class="fas fa-exclamation-circle"></i><br><br>
+                                    Candidates <strong>MUST NOT</strong> have physical disabilities that hinder practical work.
+                                </td>
+                            </tr>
+                            
+                            <!-- STPM Arts Stream -->
+                            <tr>
+                                <td><strong>STPM Applicants<br>(Arts Stream)</strong></td>
+                                <td>
+                                    • Obtained at least <strong>Grade B (GP 3.00)</strong> at the STPM level in the following subjects:<br><br>
+                                    Mathematics (M) / Business Studies / Economics / Accounting / History / Geography / Sports Science<br><br>
+                                    <strong>AND</strong><br><br>
+                                    • Obtained at least <strong>Grade C (Credit)</strong> in Mathematics at the SPM level.
+                                </td>
+                                <td>Obtained at least <strong>Band 2.0</strong> in the Malaysian University English Test (MUET), within the validity period at the time of application.</td>
+                            </tr>
+                            
+                            <!-- STAM -->
+                            <tr>
+                                <td><strong>STAM Applicants</strong></td>
+                                <td>
+                                    • Possess a Sijil Tinggi Agama Malaysia (STAM) with at least a <strong>Jayyid (Good)</strong> rank.<br><br>
+                                    <strong>AND</strong><br><br>
+                                    • Obtained at least <strong>Grade C (Credit)</strong> at the SPM level in any <strong>one (1)</strong> of the following subjects:<br><br>
+                                    Mathematics / Computer Science
+                                </td>
+                                <td>Obtained at least <strong>Band 1.0</strong> in the Malaysian University English Test (MUET), within the validity period at the time of application.</td>
+                            </tr>
+                            
+                            <!-- Matriculation/Foundation -->
+                            <tr>
+                                <td><strong>Matriculation /<br>Foundation Applicants</strong></td>
+                                <td>
+                                    Obtained at least <strong>Grade C (GP 2.00)</strong> at the Matriculation/Foundation level in:<br><br>
+                                    • Mathematics<br><br>
+                                    <strong>OR</strong><br><br>
+                                    • Statistics and Data Analysis / Programming and Computer / Discrete Mathematics and Logic / Analytics and Data Science / Quantitative Support Course / Business Foundation Course
+                                </td>
+                                <td>Obtained at least <strong>Band 2.0</strong> in the Malaysian University English Test (MUET), within the validity period at the time of application.</td>
+                            </tr>
+                            
+                            <!-- Diploma -->
+                            <tr>
+                                <td><strong>Diploma Applicants</strong></td>
+                                <td>
+                                    • Possess a Diploma in Mathematics / Science / Statistics / Actuarial Science / Applied Science / Mathematical Science / Accounting / Investment Analysis / Computer Science / Information Technology from any Public University (UA), Polytechnic, or an equivalent qualification recognized by the Government of Malaysia, with a minimum <strong>CPA / CGPA of 2.50</strong>.<br><br>
+                                    • <strong>Note:</strong> Candidates with a <strong>CPA / CGPA below 2.50 but above 2.00</strong> may be accepted subject to a rigorous internal assessment process and must complete a bridging program if required by UTHM.
+                                </td>
+                                <td>
+                                    Obtained at least <strong>Band 2.0</strong> in the Malaysian University English Test (MUET) within the validity period.<br><br>
+                                    <em style="font-size: 0.85rem; color: var(--text-muted);">(MUET exemption as an entry requirement to the Malaysia Technical University Network (MTUN) is granted to Diploma graduates from Polytechnics and Community Colleges).</em>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- How to Apply Section -->
+            <section class="section apply-steps-section">
+                <div class="section-header">
+                    <span class="section-tag">Process</span>
+                    <h2>How to Apply</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h4>Check Eligibility</h4>
+                        <p>Ensure you meet the specific academic and MUET requirements listed above for your qualification stream.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h4>Prepare Documents</h4>
+                        <p>Gather your academic transcripts, MUET results, IC/Passport copy, and a recent passport-sized photograph.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h4>Submit Application</h4>
+                        <p>Apply online through the UTHM official admission portal or via UPU for Malaysian citizens.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <h4>Offer & Acceptance</h4>
+                        <p>Receive your offer letter, accept the offer within the stipulated time, and complete the registration process.</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Visit UTHM Admission Portal</a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">University</a> | 
+                <a href="#">About CDA</a> | 
+                <a href="#">WBL</a> | 
+                <a href="#">Faculty</a> | 
+                <a href="#">Alumni</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Universiti Tun Hussein Onn Malaysia | Faculty of Computer Science
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Dropdown Toggle -->
+    <script>
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', (e) => {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const menu = toggle.nextElementSibling;
+                    if (menu && menu.classList.contains('dropdown-menu')) {
+                        menu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

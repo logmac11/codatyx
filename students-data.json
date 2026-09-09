@@ -1,0 +1,212 @@
+{
+  "students": [
+    {
+      "name": "MUHAMMAD SUFI FAHMY BIN ABDULLAH",
+      "matric": "AW230088",
+      "supervisor": "DR KEK SIE LONG",
+      "company": "Celestica Malaysia Sdn. Bhd.",
+      "coordinator": "SITI NAJIHAH BINTI ISMAIL",
+      "coach": "SAZRUL AZRI BIN ZAKARHA"
+    },
+    {
+      "name": "NORHUSNINA ZULAIKHA BT MUHAMMAD RIZWAN",
+      "matric": "AW230095",
+      "supervisor": "DR KEK SIE LONG",
+      "company": "Lam Research",
+      "coordinator": "Siti Nur Hidayah Izham",
+      "coach": "Angela Ng"
+    },
+    {
+      "name": "NURHUSNAH BINTI RUAMIN",
+      "matric": "AW230073",
+      "supervisor": "DR KEK SIE LONG",
+      "company": "Sekretariat Sabah Maju Jaya",
+      "coordinator": "SANDRA ANN JERRY",
+      "coach": "IZAMRI BIN ROSMAN"
+    },
+    {
+      "name": "TOH MIN XUAN",
+      "matric": "AW203271",
+      "supervisor": "DR KEK SIE LONG",
+      "company": "Jabil Circuit Sdn Bhd",
+      "coordinator": "Kam Shien-Yi",
+      "coach": "Mohd Saufi Abd Rahmin"
+    },
+    {
+      "name": "DEVASREMAN A/L KRISHNAMURTHY",
+      "matric": "AW230125",
+      "supervisor": "DR. LOGENTHIRAN A/L MACHAP",
+      "company": "Molnlycke Health Care Sdn. Bhd",
+      "coordinator": "Shamini Thangavel",
+      "coach": "Mohd Raside Shafad"
+    },
+    {
+      "name": "MUHAMMAD FATIN BIN ABD RAHMAN",
+      "matric": "AW230074",
+      "supervisor": "DR. LOGENTHIRAN A/L MACHAP",
+      "company": "Antsbees Sdn Bhd",
+      "coordinator": "Vinesh Pannirselvan",
+      "coach": "Muhilan A/L Nalarajah"
+    },
+    {
+      "name": "NOR ALI YANSHAH BIN MAT RA'E",
+      "matric": "AW230199",
+      "supervisor": "DR. LOGENTHIRAN A/L MACHAP",
+      "company": "COHU",
+      "coordinator": "Jowena Locke",
+      "coach": "Phyllis Tan"
+    },
+    {
+      "name": "NOR BALQIS BINTI NOR ZAINI",
+      "matric": "AW230159",
+      "supervisor": "DR. LOGENTHIRAN A/L MACHAP",
+      "company": "Geoinfo Services Sdn. Bhd.",
+      "coordinator": "ABDUL JAMIL BIN ABOO BACKER",
+      "coach": "SABYLLA SORAYA BINTI MOHD YUSRI"
+    },
+    {
+      "name": "NURHAFIZAH BINTI AZLAN HISHAM",
+      "matric": "AW230120",
+      "supervisor": "PM DR FAZLINA AMAN",
+      "company": "The Prayer Mat Sdn. Bhd.",
+      "coordinator": "Yogendra Kumar Mohanlal",
+      "coach": "Dr. Siti Norwahida binti Shukeri"
+    },
+    {
+      "name": "RAJA NUR SABILAH BINTI RAJA SAIFULLIZAN",
+      "matric": "AW230054",
+      "supervisor": "PM DR FAZLINA AMAN",
+      "company": "Prasarana Malaysia Berhad",
+      "coordinator": "En. Muhammad Ainuddin bin Saharudin",
+      "coach": "Pn. Aishah bt Omar"
+    },
+    {
+      "name": "SAFIYYAH NAFESSA BINTI ISMAIL",
+      "matric": "AW230163",
+      "supervisor": "PM DR FAZLINA AMAN",
+      "company": "Ever AI Holdings Sdn Bhd",
+      "coordinator": "Dr Sai Chong Yeh",
+      "coach": "David Chong Teak Wei"
+    },
+    {
+      "name": "SALWA BINTI MD SAIDI",
+      "matric": "AW230118",
+      "supervisor": "PM DR FAZLINA AMAN",
+      "company": "Invenio PTL Property& Facilities Management Sdn Bhd",
+      "coordinator": "Bibi Zaima binti Zainon",
+      "coach": "Suppriyadi bin Soembri"
+    },
+    {
+      "name": "NOR AFISYA EADIE",
+      "matric": "AW230009",
+      "supervisor": "PM DR SITI SUHANA JAMAIAN",
+      "company": "Isianpadu Systems Sdn Bhd",
+      "coordinator": "Ramzi Fathil bin Mustapha",
+      "coach": "Mohd Sangir Bin Abdullah Sajadi"
+    },
+    {
+      "name": "NUR AINNA BINTI AZMAN",
+      "matric": "AW230039",
+      "supervisor": "PM DR SITI SUHANA JAMAIAN",
+      "company": "PPG Coatings(M) Sdn. Bhd.",
+      "coordinator": "Sherry Soh Shi Rui",
+      "coach": "Tan Yoke King"
+    },
+    {
+      "name": "NURUL SYAHIRAH BINTI ZAIRUL ADAM",
+      "matric": "AW230038",
+      "supervisor": "PM DR SITI SUHANA JAMAIAN",
+      "company": "PPG Coatings(M) Sdn. Bhd.",
+      "coordinator": "Sherry Soh Shi Rui",
+      "coach": "Tan Yoke King"
+    },
+    {
+      "name": "IFFAH NAQIBAH BINTI ZAINAL ABIDIN",
+      "matric": "AW230078",
+      "supervisor": "PM. DR. MOHD SAIFULLAH RUSIMAN",
+      "company": "Kiswire Sdn Bhd",
+      "coordinator": "NOR SUHADA BT MD ISA",
+      "coach": "ADIHASRULIZAM B. ABD KADIR"
+    },
+    {
+      "name": "NUR ALIA MUNIRAH BINTI ABDUL GHAMAR",
+      "matric": "AW230141",
+      "supervisor": "PM. DR. MOHD SAIFULLAH RUSIMAN",
+      "company": "Tok Bali Supply Base Sdn Bhd",
+      "coordinator": "ROHALIM BIN MOHAMAD",
+      "coach": "NORASYIDA BINTI MOHD RADZI"
+    },
+    {
+      "name": "NURUL ATHIRAH BINTI ABDUL RAHMAN",
+      "matric": "AW230109",
+      "supervisor": "PM. DR. MOHD SAIFULLAH RUSIMAN",
+      "company": "Rayhar Travels Sdn Bhd",
+      "coordinator": "Nur Hasyimah Binti Hassan",
+      "coach": "Wan Norhasnida Binti Wan Shafei"
+    },
+    {
+      "name": "RAFA AN NAJWA BINTI MOHAMMAD AMIRUDDIN",
+      "matric": "AW230062",
+      "supervisor": "PM. DR. MOHD SAIFULLAH RUSIMAN",
+      "company": "Invenio PTL Property& Facilities Management Sdn Bhd",
+      "coordinator": "Bibi Zaima binti Zainon",
+      "coach": "Suppriyadi bin Soembri"
+    },
+    {
+      "name": "AINI NADIRAH BINTI SASMAN",
+      "matric": "AW230096",
+      "supervisor": "PROF. DR. AZME KHAMIS",
+      "company": "Aufa Intelligence Sdn Bhd",
+      "coordinator": "MOHD ZULFADHLI BIN ZAKARIA",
+      "coach": "AMIRUL ANWAR BIN ABU BAKAR"
+    },
+    {
+      "name": "BALQIS BINTI MOHD YUNUS",
+      "matric": "AW230066",
+      "supervisor": "PROF. DR. AZME KHAMIS",
+      "company": "Ever AI Holdings Sdn Bhd",
+      "coordinator": "Dr Sai Chong Yeh",
+      "coach": "David Chong Teak Wei"
+    },
+    {
+      "name": "SITI FATEHAH BINTI MAHAMAD",
+      "matric": "AW230063",
+      "supervisor": "PROF. DR. AZME KHAMIS",
+      "company": "Aufa Intelligence Sdn Bhd",
+      "coordinator": "MOHD ZULFADHLI BIN ZAKARIA",
+      "coach": "AMIRUL ANWAR BIN ABU BAKAR"
+    },
+    {
+      "name": "ADAM DANIAL BIN AZIHAN",
+      "matric": "AW230050",
+      "supervisor": "TS. DR. WAN NOR MUNIRAH ARIFFIN",
+      "company": "FPG Oleochemicals Sdn Bhd",
+      "coordinator": "Mrs Tuan Rozaiman binti Tuan Ab Rahman",
+      "coach": "Mr. Wan Qhozi bin Wan Mansor"
+    },
+    {
+      "name": "IKMAL NORHAKIM BIN NORHAZIMAN",
+      "matric": "AW230086",
+      "supervisor": "TS. DR. WAN NOR MUNIRAH ARIFFIN",
+      "company": "Invenio PTL Property& Facilities Management Sdn Bhd",
+      "coordinator": "Bibi Zaima binti Zainon",
+      "coach": "Muhammad Afiq Bin Mohd Ghazali"
+    },
+    {
+      "name": "NUR ZAWAWI BIN NUZAIDI",
+      "matric": "AW230035",
+      "supervisor": "TS. DR. WAN NOR MUNIRAH ARIFFIN",
+      "company": "Malaysia Airline Berhad",
+      "coordinator": "NURUL ALWANI BINTI RAZALI",
+      "coach": "SOFAHANI BINTI MOHAMAD SAKROJI"
+    },
+    {
+      "name": "SYARIFAH ADRIANA BINTI SYED FAIRUZ SAZMAN",
+      "matric": "AW230105",
+      "supervisor": "TS. DR. WAN NOR MUNIRAH ARIFFIN",
+      "company": "AEM Energy Solutions Sdn Bhd",
+      "coordinator": "Nur Fatin Nabilah Abdul Aziz",
+      "coach": "Atiqah Hazirah binti Akmaluddin"
+    }
+  ]
+}

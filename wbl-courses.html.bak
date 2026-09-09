@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBL Courses - BSc. Computational Data Analytics - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+                    <a href="https://www.uthm.edu.my/" target="_blank" rel="noopener noreferrer">
+						<img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+					</a>
+                    <div class="logo-text">
+                        <!--<span class="uni-name">Universiti Tun Hussein Onn Malaysia</span>
+                        <span class="dept-name">BSc. Computational Data Analytics</span> -->
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">UG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ug-info.html">Program Info</a></li>
+                            <li><a href="ug-curriculum.html">Curriculum</a></li>
+                            <li><a href="ug-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">PG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pg-info.html">Program Info</a></li>
+                            <li><a href="pg-curriculum.html">Curriculum</a></li>
+                            <li><a href="pg-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active">WBL Info <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wbl-info.html">About WBL</a></li>
+                            <li><a href="wbl-courses.html" class="active">WBL Courses</a></li>
+                            <li><a href="wbl-administration.html" >WBL Administration</a></li>
+							<li><a href="wbl-cohorts.html">WBL Cohorts</a></li>
+                            <!-- <li><a href="#">Industry Partners</a></li>
+                            <li><a href="#">Student Testimonials</a></li> -->
+                        </ul>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="apply-btn"><a href="#">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> 
+                <span>WBL Experience</span> <i class="fas fa-chevron-right"></i> 
+                <span>WBL Courses</span>
+            </div>
+            <h1>WBL Courses</h1>
+            <p>Work-Based Learning courses for Semester 6, Short Semester, and Semester 7</p>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+        <div class="container">
+
+            <!-- WBL Courses Table -->
+            <section class="section wbl-courses-section">
+                <div class="section-header">
+                    <span class="section-tag">WBL Curriculum</span>
+                    <h2>Work-Based Learning Courses</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Six comprehensive courses designed to bridge academic knowledge with industry practice</p>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="wbl-courses-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 15%;">Course Code</th>
+                                <th style="width: 40%;">Course Name</th>
+                                <th style="width: 10%;">Credit</th>
+                                <th style="width: 15%;">Semester</th>
+                                <th style="width: 10%;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Course 1: BWS44004 - UPDATED WITH FULL DETAILS -->
+                            <tr class="course-row">
+                                <td><strong>BWS44004</strong></td>
+                                <td>IT Professional Practice and Ethics *(WBL)</td>
+                                <td>4</td>
+                                <td>Sem 6</td>
+                                <td>
+                                    <button class="expand-btn" onclick="toggleCourse('course-1')">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="course-details" id="course-1">
+                                <td colspan="5">
+                                    <div class="details-content">
+                                        <div class="details-header">
+                                            <h3><i class="fas fa-book"></i> BWS44004: IT Professional Practice and Ethics</h3>
+                                        </div>
+                                        
+                                        <div class="details-grid">
+                                            <div class="detail-section full-width">
+                                                <h4><i class="fas fa-info-circle"></i> Synopsis</h4>
+                                                <p>This course discusses how these modern systems evolved over time and how the digitisation of data has changed science and business through the use of technologies aimed at supporting decision making. The course will look at the ethical implications of the widespread use of these systems and how governance frameworks are used to guide businesses in the ethical use of ICT.</p>
+                                            </div>
+                                            
+                                            <div class="detail-section">
+                                                <h4><i class="fas fa-bullseye"></i> Course Learning Outcomes (CLO)</h4>
+                                                <ul>
+                                                    <li><strong>CLO1:</strong> Demonstrate and communicate a conceptual understanding of the implications of digital innovation within a business case study. (C4; LOD9; PLO6)</li>
+                                                    <li><strong>CLO2:</strong> Communicate a clear, coherent and independent analysis of the use of data analysis tools, Decision support Systems and IT governance and IT standards and frameworks in Business. (P4; LOD14; PLO10)</li>
+                                                    <li><strong>CLO3:</strong> Apply normative competency to understand and convey ethical implications in ICT artefact development. (A4; LOD16; PLO11, SC8)</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <div class="detail-section">
+                                                <h4><i class="fas fa-chart-bar"></i> Program Learning Outcomes (PLO)</h4>
+                                                <div class="plo-tags">
+                                                    <span class="plo-tag">PLO6: Digital Skills</span>
+                                                    <span class="plo-tag">PLO10: Entrepreneurial Skill</span>
+                                                    <span class="plo-tag">PLO11: Ethics and Professional</span>
+                                                    <span class="plo-tag">SC8: Normative Competency</span>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="detail-section full-width">
+                                                <h4><i class="fas fa-list-ul"></i> Content Outline</h4>
+                                                
+                                                <div class="topic-box">
+                                                    <h5><i class="fas fa-check-circle"></i> TOPIC 1: Digital Innovation and Disruption</h5>
+                                                    <p>Students will learn the fundamental concepts of ICT and digital transformation. They will explore historical and modern examples of digital disruption, understand how innovation reshapes industries, and evaluate its impact on organizations, customer behavior, and society.</p>
+                                                </div>
+                                                
+                                                <div class="topic-box">
+                                                    <h5><i class="fas fa-check-circle"></i> TOPIC 2: Decision Support Systems and Analytics</h5>
+                                                    <p>Students will learn the concepts and applications of Decision Support Systems (DSS). They will differentiate between traditional and modern DSS approaches, including real-time analytics, and assess the effective use and potential misuse of DSS in business decision-making.</p>
+                                                </div>
+                                                
+                                                <div class="topic-box">
+                                                    <h5><i class="fas fa-check-circle"></i> TOPIC 3: Governance, Audit, and Regulation of ICT</h5>
+                                                    <p>Students will learn the principles of ICT governance, audit, and regulation. They will understand the legal, ethical, and compliance requirements of cyberspace, explore governance frameworks, and evaluate practitioner insights into ensuring accountability and transparency.</p>
+                                                </div>
+                                                
+                                                <div class="topic-box">
+                                                    <h5><i class="fas fa-check-circle"></i> TOPIC 4: Ethics, Professional Responsibility, and Society</h5>
+                                                    <p>Students will learn ethical analysis frameworks and professional codes of conduct in ICT. They will examine issues of system reliability, cybersecurity, and data protection, and analyze the wider societal impact of technology on trust, responsibility, and professional practice.</p>
+                                                </div>
+                                                
+                                                <div class="topic-box">
+                                                    <h5><i class="fas fa-check-circle"></i> TOPIC 5: Management, Communication, and Team Dynamics</h5>
+                                                    <p>Students will learn essential management concepts and professional communication skills. They will apply teamwork and leadership principles, develop effective collaboration strategies, and reflect on current ICT trends to prepare for real-world workplace dynamics.</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="detail-section">
+                                                <h4><i class="fas fa-chalkboard-teacher"></i> Teaching Method</h4>
+                                                <p>Work-based Learning / Blended Learning</p>
+                                            </div>
+                                            
+                                            <div class="detail-section">
+                                                <h4><i class="fas fa-folder-open"></i> Materials</h4>
+                                                <p>Lecture slides, case studies on ethical dilemmas in ICT, professional codes of ethics, company ICT governance policies, cybersecurity regulations, audit reports, practitioner interviews, and industry standards documentation.</p>
+                                            </div>
+                                            
+                                            <div class="detail-section full-width">
+                                                <h4><i class="fas fa-chart-line"></i> Expected Outcomes</h4>
+                                                <p>Students will understand the foundations of professional ethics in ICT, critically analyze ethical, legal, and social issues in technology, and apply professional codes of conduct in workplace scenarios. They will be able to evaluate governance frameworks, ensure compliance with ICT regulations, and make ethically sound decisions in real-world professional practice. Students will also develop effective communication and teamwork skills necessary for ethical ICT management and decision-making.</p>
+                                            </div>
+                                            
+                                            <div class="detail-section full-width">
+                                                <h4><i class="fas fa-clipboard-check"></i> Assessment</h4>
+                                                <p><strong>Methods:</strong> WBL Logbook / Case Study Analysis / Practical Demonstration / Online Quiz / Observation</p>
+                                                
+                                                <div class="assessment-table-wrapper">
+                                                    <table class="assessment-table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Assessment</th>
+                                                                <th>Assessor</th>
+                                                                <th>CLO</th>
+                                                                <th>PLO</th>
+                                                                <th>Level</th>
+                                                                <th>Assessment Tool</th>
+                                                                <th>%</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td rowspan="6">Continuous</td>
+                                                                <td rowspan="3" class="assessor-university">University</td>
+                                                                <td>CLO1</td>
+                                                                <td>PLO6</td>
+                                                                <td>C4</td>
+                                                                <td>Online Quiz</td>
+                                                                <td>10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>CLO1</td>
+                                                                <td>PLO6</td>
+                                                                <td>C4</td>
+                                                                <td>WBL Progress Logbook Report</td>
+                                                                <td>10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>CLO3</td>
+                                                                <td>PLO11</td>
+                                                                <td>A4-SC8</td>
+                                                                <td>Video Presentation</td>
+                                                                <td>10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td rowspan="3" class="assessor-industry">Industry</td>
+                                                                <td>CLO1</td>
+                                                                <td>PLO6</td>
+                                                                <td>C4</td>
+                                                                <td>WBL Progress Logbook Report</td>
+                                                                <td>20</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>CLO3</td>
+                                                                <td>PLO11</td>
+                                                                <td>A4-SC8</td>
+                                                                <td>Observation</td>
+                                                                <td>20</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>CLO2</td>
+                                                                <td>PLO10</td>
+                                                                <td>P4</td>
+                                                                <td>Demonstration</td>
+                                                                <td>30</td>
+                                                            </tr>
+                                                            <tr class="total-row">
+                                                                <td colspan="6" style="text-align: right;"><strong>Total</strong></td>
+                                                                <td><strong>100</strong></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <!-- Course 2: BWS44104 -->
+                            <!-- Course 2: BWS44104 - UPDATED WITH FULL DETAILS -->
+							<tr class="course-row">
+								<td><strong>BWS44104</strong></td>
+								<td>Data Analytics and Management *(WBL)</td>
+								<td>4</td>
+								<td>Sem 6</td>
+								<td>
+									<button class="expand-btn" onclick="toggleCourse('course-2')">
+										<i class="fas fa-plus"></i>
+									</button>
+								</td>
+							</tr>
+							<tr class="course-details" id="course-2">
+								<td colspan="5">
+									<div class="details-content">
+										<div class="details-header">
+											<h3><i class="fas fa-book"></i> BWS44104: Data Analytics and Management</h3>
+										</div>
+										
+										<div class="details-grid">
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-info-circle"></i> Synopsis</h4>
+												<p>This course uses case studies to review the data challenges business confront and how data management and analytics is used to help make sound management decisions.</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-bullseye"></i> Course Learning Outcomes (CLO)</h4>
+												<ul>
+													<li><strong>CLO1:</strong> Recommend an appropriate model for different data types, data process and analysis workflow computer systems for each organization. (C4; LOD2; PLO2)</li>
+													<li><strong>CLO2:</strong> Interpret the business significance of the data, what it implies about the business, customers, etc. (P4; LOD9; PLO6; SC5)</li>
+													<li><strong>CLO3:</strong> Generating reports on the data, including appropriately constructed graphics and histograms that illustrate important features of the data. (A4; LOD13; PLO9)</li>
+												</ul>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chart-bar"></i> Program Learning Outcomes (PLO)</h4>
+												<div class="plo-tags">
+													<span class="plo-tag">PLO2: Cognitive Skill</span>
+													<span class="plo-tag">PLO6: Digital Skill</span>
+													<span class="plo-tag">PLO9: Personal Skill</span>
+													<span class="plo-tag">SC5: Collaboration Competency</span>
+												</div>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-list-ul"></i> Content Outline</h4>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 1: Introduction to Database Management Systems</h5>
+													<p>Students will learn how to design, organize, and maintain databases using relational models, normalization, and referential integrity.</p>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 2: Data Preprocessing</h5>
+													<p>Students will learn how to clean, prepare, and govern data for analysis, including reduction techniques and basic modeling.</p>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 3: Understanding Statistics</h5>
+													<p>Students will learn basic statistical concepts such as data sets, size, range, and variation for data analysis.</p>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 4: Business Intelligence and Analytics</h5>
+													<p>Students will learn to apply descriptive statistics, visualize data, and explore datasets to generate useful insights.</p>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 5: Managerial Decision-Making</h5>
+													<p>Students will learn how to use data queries, models, and reports to support managerial decisions.</p>
+												</div>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chalkboard-teacher"></i> Teaching Method</h4>
+												<p>Work-based Learning / Blended Learning</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-folder-open"></i> Materials</h4>
+												<p>Lecture slides and notes, Company's data management procedures and governance policies, Case studies and real industry datasets, Data analytics standards or compliance documents.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-chart-line"></i> Expected Outcomes</h4>
+												<p>Students will be able to analyze datasets using appropriate techniques, perform data management and analytics tasks confidently with suitable tools, and demonstrate professional values by adhering to governance and ethical standards in practice.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-clipboard-check"></i> Assessment</h4>
+												<p><strong>Methods:</strong> WBL Logbook / Case Study Analysis / Video Presentation / Practical Observation / Online Quiz</p>
+												
+												<div class="assessment-table-wrapper">
+													<table class="assessment-table">
+														<thead>
+															<tr>
+																<th>Assessment</th>
+																<th>Assessor</th>
+																<th>CLO</th>
+																<th>PLO</th>
+																<th>Level</th>
+																<th>Assessment Tool</th>
+																<th>%</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td rowspan="6">Continuous</td>
+																<td rowspan="3" class="assessor-university">University</td>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C4</td>
+																<td>Online Quiz</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C4</td>
+																<td>WBL Progress Logbook Report</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO3</td>
+																<td>PLO9</td>
+																<td>A4</td>
+																<td>Video Presentation</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td rowspan="3" class="assessor-industry">Industry</td>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C4</td>
+																<td>WBL Progress Logbook Report</td>
+																<td>30</td>
+															</tr>
+															<tr>
+																<td>CLO2</td>
+																<td>PLO6</td>
+																<td>P4-SC5</td>
+																<td>Demonstration</td>
+																<td>20</td>
+															</tr>
+															<tr>
+																<td>CLO3</td>
+																<td>PLO9</td>
+																<td>A4</td>
+																<td>Observation</td>
+																<td>20</td>
+															</tr>
+															<tr class="total-row">
+																<td colspan="6" style="text-align: right;"><strong>Total</strong></td>
+																<td><strong>100</strong></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+
+                            <!-- Course 3: BWS44204 -->
+                            <!-- Course 3: BWS44304 - UPDATED WITH FULL DETAILS -->
+							<tr class="course-row">
+								<td><strong>BWS44304</strong></td>
+								<td>Industry Integrated Project Proposal *(WBL)</td>
+								<td>4</td>
+								<td>Sem 6</td>
+								<td>
+									<button class="expand-btn" onclick="toggleCourse('course-3')">
+										<i class="fas fa-plus"></i>
+									</button>
+								</td>
+							</tr>
+							<tr class="course-details" id="course-3">
+								<td colspan="5">
+									<div class="details-content">
+										<div class="details-header">
+											<h3><i class="fas fa-book"></i> BWS44304: Industry Integrated Project Proposal</h3>
+										</div>
+										
+										<div class="details-grid">
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-info-circle"></i> Synopsis</h4>
+												<p>This course would provide the essential steps to be taken in the process of producing quality in writing project proposal for the data science field. This course focusses on starting with selecting the title, writing abstract and introduction, selection of appropriate methodology by using existing or developing new methodology and writing the reference. This course also provides student how to manage the timetable and how to overcome the project challenges along the study. All skills learned are transferable and applicable to other genre writing as well.</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-bullseye"></i> Course Learning Outcomes (CLO)</h4>
+												<ul>
+													<li><strong>CLO1:</strong> Propose viable solution to any data analytics applications at related industry or agency. (C5; LOD8; PLO5)</li>
+													<li><strong>CLO2:</strong> Produce a professional, competitive, compelling and successful project proposal. (P5; LOD9; PLO6)</li>
+													<li><strong>CLO3:</strong> Manage appropriate resources including data collection in preparing the proposal. (A4; LOD16; PLO11)</li>
+												</ul>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chart-bar"></i> Program Learning Outcomes (PLO)</h4>
+												<div class="plo-tags">
+													<span class="plo-tag">PLO5: Communication Skill</span>
+													<span class="plo-tag">PLO6: Digital Skills</span>
+													<span class="plo-tag">PLO11: Ethics and Professionalism</span>
+												</div>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-list-ul"></i> Content Outline</h4>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 1: Introduction to Integrated Project Proposal</h5>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 2: Background Knowledge and Context Area</h5>
+													<p>Review on current practices</p>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 3: Consideration of Proposed Methods</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Methods approach to conduct Integrated Project</li>
+														<li>Design project to get the best results/findings</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 4: Strategy, Timetable and Project Challenges</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Stage of project</li>
+														<li>Gantt chart</li>
+														<li>Challenges encounter/overcome</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 5: Sources and Referencing</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>List of key references</li>
+														<li>Other relevant material related to reference</li>
+													</ul>
+												</div>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chalkboard-teacher"></i> Teaching Method</h4>
+												<p>Final Year Project</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-folder-open"></i> Materials</h4>
+												<p>Lecture Slide, templates and samples for proposal writing, project work, practical session, case studies, meeting with university supervisor, etc.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-chart-line"></i> Expected Outcomes</h4>
+												<p>Students will be able to prepare a comprehensive integrated project proposal by defining the title, objectives, hypotheses, research questions, and scope; select appropriate methods; plan the project timeline and anticipate challenges; and compile relevant references and supporting materials.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-clipboard-check"></i> Assessment</h4>
+												<p><strong>Methods:</strong> Proposal / Presentation / Reflective Log</p>
+												
+												<div class="assessment-table-wrapper">
+													<table class="assessment-table">
+														<thead>
+															<tr>
+																<th>Assessment</th>
+																<th>Assessor</th>
+																<th>CLO</th>
+																<th>PLO</th>
+																<th>Level</th>
+																<th>Assessment Tool</th>
+																<th>%</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td rowspan="7">Continuous</td>
+																<td rowspan="4" class="assessor-university">University</td>
+																<td>CLO1</td>
+																<td>PLO5</td>
+																<td>C5</td>
+																<td>Proposal Project Report (SV)</td>
+																<td>15</td>
+															</tr>
+															<tr>
+																<td>CLO1</td>
+																<td>PLO5</td>
+																<td>C5</td>
+																<td>WBL Logbook (SV)-Progress Report</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO1</td>
+																<td>PLO5</td>
+																<td>C5</td>
+																<td>Proposal Project Report (EX)</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO3</td>
+																<td>PLO11</td>
+																<td>A4</td>
+																<td>Presentation (EX)</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td rowspan="3" class="assessor-industry">Industry</td>
+																<td>CLO1</td>
+																<td>PLO5</td>
+																<td>C5</td>
+																<td>Proposal Project Report</td>
+																<td>20</td>
+															</tr>
+															<tr>
+																<td>CLO2</td>
+																<td>PLO6</td>
+																<td>P5</td>
+																<td>Demonstration</td>
+																<td>20</td>
+															</tr>
+															<tr>
+																<td>CLO3</td>
+																<td>PLO11</td>
+																<td>A4</td>
+																<td>Observation</td>
+																<td>15</td>
+															</tr>
+															<tr class="total-row">
+																<td colspan="6" style="text-align: right;"><strong>Total</strong></td>
+																<td><strong>100</strong></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+
+                            <!-- Course 4: BWS44601 -->
+                            <!-- Course 4: BWS44601 - UPDATED WITH FULL DETAILS -->
+							<tr class="course-row">
+								<td><strong>BWS44601</strong></td>
+								<td>Applied Research Skills *(WBL)</td>
+								<td>1</td>
+								<td>Short Sem</td>
+								<td>
+									<button class="expand-btn" onclick="toggleCourse('course-4')">
+										<i class="fas fa-plus"></i>
+									</button>
+								</td>
+							</tr>
+							<tr class="course-details" id="course-4">
+								<td colspan="5">
+									<div class="details-content">
+										<div class="details-header">
+											<h3><i class="fas fa-book"></i> BWS44601: Applied Research Skills</h3>
+										</div>
+										
+										<div class="details-grid">
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-info-circle"></i> Synopsis</h4>
+												<p>This course provides students with guided opportunities to strengthen their research progress between the Research Proposal and Research Framework and Report phases. Emphasis is given to improving and updating their approved proposal, developing detailed research methodology, and initiating report writing with proper academic style and referencing. Through short seminars, peer discussions, and supervisor feedback, students will refine their research design, ensure methodological consistency, and enhance academic writing quality. This course bridges proposal planning with research implementation, fostering readiness for the final research phase.</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-bullseye"></i> Course Learning Outcomes (CLO)</h4>
+												<ul>
+													<li><strong>CLO1:</strong> Apply and integrate knowledge to solve real-world problems with critical self-reflection, and refine a research proposal based on feedback and methodological needs. (C4; LOD6; PLO4; SC7)</li>
+													<li><strong>CLO2:</strong> Apply appropriate research methodology in developing the research framework. (P4; LOD11; PLO8)</li>
+													<li><strong>CLO3:</strong> Produce a preliminary research report section with ethical considerations that demonstrates proper academic writing, citation, and structure. (A4; LOD16; PLO11)</li>
+												</ul>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chart-bar"></i> Program Learning Outcomes (PLO)</h4>
+												<div class="plo-tags">
+													<span class="plo-tag">PLO4: Interpersonal Skill</span>
+													<span class="plo-tag">PLO8: Leadership, Autonomy and Responsibility</span>
+													<span class="plo-tag">PLO11: Ethics & Professionalism</span>
+													<span class="plo-tag">SC7: Self Awareness Competency</span>
+												</div>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-list-ul"></i> Content Outline</h4>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 1: Refinement Summary</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Overview of proposal feedback</li>
+														<li>Identifying improvements</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 2: Methodology Enhancement Workshop</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Improvements to the research design and instruments</li>
+														<li>Explanation of alignment between objectives, research questions, and methods</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 3: Academic Writing Clinic</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Structure of research chapters, paraphrasing, citation tools</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 4: Research Design Consistency Matrix</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Alignment between objectives, research questions, variables, methods, and data requirements</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 5: Preliminary Analysis Plan</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Initial plan for data analysis</li>
+														<li>Sample tables/graphs using dummy data to illustrate expected outputs</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 6: Progress Seminar & Reflection</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Presentation of progress and research readiness for next phase</li>
+													</ul>
+												</div>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chalkboard-teacher"></i> Teaching Method</h4>
+												<p>Final Year Project</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-folder-open"></i> Materials</h4>
+												<p>Slide, Gantt charts and project scheduling tools, project work, practical session, case studies, meeting with university supervisor, seminar, etc.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-chart-line"></i> Expected Outcomes</h4>
+												<p>Upon successful completion of this course, students will be able to critically review and refine their approved research proposal to ensure clarity, coherence, and alignment with the intended research objectives and framework; develop a detailed, systematic, and methodologically sound research methodology appropriate to the study; ensure consistency between the research problem, objectives, methodology, and proposed analysis in preparation for research implementation; produce initial sections of a research report using proper academic writing conventions and correct referencing style; integrate constructive feedback from supervisors and peers to enhance research quality; and effectively communicate research progress in academic settings such as seminars and peer discussions using appropriate scholarly language.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-clipboard-check"></i> Assessment</h4>
+												<p><strong>Methods:</strong> Project / Industrial Product / Progress Report / Demonstration / Project / Progress Report</p>
+												
+												<div class="assessment-table-wrapper">
+													<table class="assessment-table">
+														<thead>
+															<tr>
+																<th>Assessment</th>
+																<th>Assessor</th>
+																<th>CLO</th>
+																<th>PLO</th>
+																<th>Level</th>
+																<th>Assessment Tool</th>
+																<th>%</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td rowspan="6">Continuous</td>
+																<td rowspan="4" class="assessor-university">University (SV)</td>
+																<td>CLO1</td>
+																<td>PLO4-SC7</td>
+																<td>C4</td>
+																<td>WBL Logbook- Progress Report</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO1</td>
+																<td>PLO4</td>
+																<td>C4</td>
+																<td>Project Refinement Report</td>
+																<td>20</td>
+															</tr>
+															<tr>
+																<td>CLO2</td>
+																<td>PLO8</td>
+																<td>P4</td>
+																<td>Demonstration</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO3</td>
+																<td>PLO11</td>
+																<td>A4</td>
+																<td>Video Presentation</td>
+																<td>5</td>
+															</tr>
+															<tr>
+																<td rowspan="2" class="assessor-industry">Industry</td>
+																<td>CLO1</td>
+																<td>PLO4-SC7</td>
+																<td>C4</td>
+																<td>WBL Logbook Progress Report</td>
+																<td>25</td>
+															</tr>
+															<tr>
+																<td>CLO2</td>
+																<td>PLO8</td>
+																<td>P4</td>
+																<td>Observation</td>
+																<td>30</td>
+															</tr>
+															<tr class="total-row">
+																<td colspan="6" style="text-align: right;"><strong>Total</strong></td>
+																<td><strong>100</strong></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+
+                            <!-- Course 5: BWS44404 -->
+                            <!-- Course 5: BWS44406 - UPDATED WITH FULL DETAILS -->
+							<tr class="course-row">
+								<td><strong>BWS44406</strong></td>
+								<td>Industry Integrated Project Framework & Development *(WBL)</td>
+								<td>6</td>
+								<td>Sem 7</td>
+								<td>
+									<button class="expand-btn" onclick="toggleCourse('course-5')">
+										<i class="fas fa-plus"></i>
+									</button>
+								</td>
+							</tr>
+							<tr class="course-details" id="course-5">
+								<td colspan="5">
+									<div class="details-content">
+										<div class="details-header">
+											<h3><i class="fas fa-book"></i> BWS44406: Industry Integrated Project Framework & Development</h3>
+										</div>
+										
+										<div class="details-grid">
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-info-circle"></i> Synopsis</h4>
+												<p>This course will expose the students on the process of conducting research in order to provide the skills and ability in carrying out research project framework and development in the data analytical field. The covered areas consisting of research design, project management, design of innovation, data collection and analysis. All the works can consider to publish via conference and journal publication.</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-bullseye"></i> Course Learning Outcomes (CLO)</h4>
+												<ul>
+													<li><strong>CLO1:</strong> Describe a solution to data analytical problems using a systematic research methodology effectively. (C5; LOD3; PLO2)</li>
+													<li><strong>CLO2:</strong> Use appropriate and relevant resources to develop a project based on organization needs. (P5; LOD13; PLO9)</li>
+													<li><strong>CLO3:</strong> Practise good ethics in managing the project. (A4; LOD18; PLO11)</li>
+												</ul>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chart-bar"></i> Program Learning Outcomes (PLO)</h4>
+												<div class="plo-tags">
+													<span class="plo-tag">PLO2: Cognitive Skill</span>
+													<span class="plo-tag">PLO9: Personal Skill</span>
+													<span class="plo-tag">PLO11: Ethics and Professionalism</span>
+												</div>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-list-ul"></i> Content Outline</h4>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 1: Research Design</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Determine the type of research/convention selected to conduct the study</li>
+														<li>Sequence the different stages and link them with data collection and outputs</li>
+														<li>Evaluate the strengths and weaknesses of construction methods</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 2: Construction Innovation</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Learn how to handle an integrated project based on the chosen project type</li>
+														<li>Explore types of innovations related to current industry practices</li>
+														<li>Assess the value of creative solutions</li>
+														<li>Understand basic innovation management principles</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 3: Project Delivery Methods</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Understand the fundamentals of project delivery methods</li>
+														<li>Apply design-build methods to implement projects</li>
+														<li>Select appropriate delivery methods for different project types</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 4: Data Collection and Analysis</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Collect and manage primary and secondary quantitative data sets</li>
+														<li>Analyze data, interpret findings, and validate results</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 5: Attributes of Framework</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Understand requirements for conferences related to the project</li>
+														<li>Prepare materials suitable for publication and professional dissemination</li>
+													</ul>
+												</div>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chalkboard-teacher"></i> Teaching Method</h4>
+												<p>Final Year Project</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-folder-open"></i> Materials</h4>
+												<p>Lecture Slide, Gantt charts and project scheduling tools, project work, practical session, case studies, meeting with university supervisor, etc.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-chart-line"></i> Expected Outcomes</h4>
+												<p>Students should be able to develop and execute project or research approaches, design effective research projects, collect and analyze data proficiently, and understand and apply the attributes of relevant frameworks to their work.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-clipboard-check"></i> Assessment</h4>
+												<p><strong>Methods:</strong> Interview / Progress Report / Presentation / Demonstration / Practical Task / Reflective Log</p>
+												
+												<div class="assessment-table-wrapper">
+													<table class="assessment-table">
+														<thead>
+															<tr>
+																<th>Assessment</th>
+																<th>Assessor</th>
+																<th>CLO</th>
+																<th>PLO</th>
+																<th>Level</th>
+																<th>Assessment Tool</th>
+																<th>%</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td rowspan="4">Continuous</td>
+																<td rowspan="2" class="assessor-university">University</td>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C5</td>
+																<td>WBL Logbook Progress Report</td>
+																<td>20</td>
+															</tr>
+															<tr>
+																<td>CLO3</td>
+																<td>PLO11</td>
+																<td>A5</td>
+																<td>Video Presentation</td>
+																<td>25</td>
+															</tr>
+															<tr>
+																<td rowspan="2" class="assessor-industry">Industry</td>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C5</td>
+																<td>WBL Logbook Progress Report</td>
+																<td>15</td>
+															</tr>
+															<tr>
+																<td>CLO2</td>
+																<td>PLO9</td>
+																<td>P5</td>
+																<td>Observation</td>
+																<td>40</td>
+															</tr>
+															<tr class="total-row">
+																<td colspan="6" style="text-align: right;"><strong>Total</strong></td>
+																<td><strong>100</strong></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+                            <!-- Course 6: BWS44506 -->
+                            <!-- Course 6: BWS44506 - UPDATED WITH FULL DETAILS -->
+							<tr class="course-row">
+								<td><strong>BWS44506</strong></td>
+								<td>Industry Integrated Project Report *(WBL)</td>
+								<td>6</td>
+								<td>Sem 7</td>
+								<td>
+									<button class="expand-btn" onclick="toggleCourse('course-6')">
+										<i class="fas fa-plus"></i>
+									</button>
+								</td>
+							</tr>
+							<tr class="course-details" id="course-6">
+								<td colspan="5">
+									<div class="details-content">
+										<div class="details-header">
+											<h3><i class="fas fa-book"></i> BWS44506: Industry Integrated Project Report</h3>
+										</div>
+										
+										<div class="details-grid">
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-info-circle"></i> Synopsis</h4>
+												<p>This course provides students with guided This course provides conceptual framework of project report and professional communication. Students will have opportunity to complete integrated project into report and thesis, preparing and delivering presentations of report successfully and to implementation of this delivery method on an industrial project.</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-bullseye"></i> Course Learning Outcomes (CLO)</h4>
+												<ul>
+													<li><strong>CLO1:</strong> Propose the innovation in integrated project report clearly. (C5; LOD4; PLO2)</li>
+													<li><strong>CLO2:</strong> Engage in continuous learning to apply integrated problem-solving competency by using relevant frameworks and developing inclusive, equitable solutions for complex sustainable development problems in data analytics and related fields. (P5; LOD13; PLO9,SC6)</li>
+													<li><strong>CLO3:</strong> Manage a good communication skills while presenting the project. (A4; LOD16; PLO11)</li>
+												</ul>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chart-bar"></i> Program Learning Outcomes (PLO)</h4>
+												<div class="plo-tags">
+													<span class="plo-tag">PLO2: Cognitive Skill</span>
+													<span class="plo-tag">PLO9: Personal Skill</span>
+													<span class="plo-tag">PLO11: Ethics & Professionalism</span>
+													<span class="plo-tag">SC6: Integrated Problem Solving Competency</span>
+												</div>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-list-ul"></i> Content Outline</h4>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 1: Report and Technical Paper Write Up</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Fine tuning Chapter 1, 2 and 3 of the research proposal</li>
+														<li>Interpret research data</li>
+														<li>Write a standard format of Industry Integrated Project and technical paper</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 2: Presentation</h5>
+													<ul style="margin: 10px 0 0 20px; padding: 0;">
+														<li>Present the results of the research in oral presentation session</li>
+														<li>Question and answer session</li>
+													</ul>
+												</div>
+												
+												<div class="topic-box">
+													<h5><i class="fas fa-check-circle"></i> TOPIC 3: Submission of Final Report And Technical Paper</h5>
+												</div>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-chalkboard-teacher"></i> Teaching Method</h4>
+												<p>Final Year Project</p>
+											</div>
+											
+											<div class="detail-section">
+												<h4><i class="fas fa-folder-open"></i> Materials</h4>
+												<p>Slide, Gantt charts and project scheduling tools, project work, practical session, case studies, meeting with university supervisor, etc.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-chart-line"></i> Expected Outcomes</h4>
+												<p>Students will be able to compile a comprehensive industry final report by documenting project objectives, methodology, data collection and analysis, findings, and conclusions, while demonstrating the ability to reflect critically on their work, apply academic knowledge to real industry contexts, and present results professionally.</p>
+											</div>
+											
+											<div class="detail-section full-width">
+												<h4><i class="fas fa-clipboard-check"></i> Assessment</h4>
+												<p><strong>Methods:</strong> Project / Industrial Product / Progress Report / Demonstration / Project / Progress Report</p>
+												
+												<div class="assessment-table-wrapper">
+													<table class="assessment-table">
+														<thead>
+															<tr>
+																<th>Assessment</th>
+																<th>Assessor</th>
+																<th>CLO</th>
+																<th>PLO</th>
+																<th>Level</th>
+																<th>Assessment Tool</th>
+																<th>%</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td rowspan="8">Continuous</td>
+																<td rowspan="2" class="assessor-university">University (SV)</td>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C5</td>
+																<td>WBL Logbook Progress Report</td>
+																<td>5</td>
+															</tr>
+															<tr>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C5</td>
+																<td>Project Report</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td rowspan="3" class="assessor-university">University (EX)</td>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C5</td>
+																<td>Project Report</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO2</td>
+																<td>PLO9</td>
+																<td>P5</td>
+																<td>Project Report</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td>CLO3</td>
+																<td>PLO11</td>
+																<td>A4</td>
+																<td>Presentation</td>
+																<td>10</td>
+															</tr>
+															<tr>
+																<td rowspan="3" class="assessor-industry">Industry</td>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C5</td>
+																<td>Project Report</td>
+																<td>20</td>
+															</tr>
+															<tr>
+																<td>CLO2</td>
+																<td>PLO9-SC6</td>
+																<td>P5</td>
+																<td>Demonstration</td>
+																<td>25</td>
+															</tr>
+															<tr>
+																<td>CLO1</td>
+																<td>PLO2</td>
+																<td>C5</td>
+																<td>WBL Logbook Progress Report</td>
+																<td>10</td>
+															</tr>
+															<tr class="total-row">
+																<td colspan="6" style="text-align: right;"><strong>Total</strong></td>
+																<td><strong>100</strong></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">University</a> | 
+                <a href="#">About CDA</a> | 
+                <a href="#">WBL</a> | 
+                <a href="#">Faculty</a> | 
+                <a href="#">Alumni</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Universiti Tun Hussein Onn Malaysia | Faculty of Computer Science
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Expand/Collapse and Mobile Dropdown -->
+    <script>
+        // Toggle Course Details
+        function toggleCourse(courseId) {
+            const detailsRow = document.getElementById(courseId);
+            const button = detailsRow.previousElementSibling.querySelector('.expand-btn');
+            const icon = button.querySelector('i');
+            
+            if (detailsRow.classList.contains('active')) {
+                detailsRow.classList.remove('active');
+                icon.classList.remove('fa-minus');
+                icon.classList.add('fa-plus');
+            } else {
+                // Close all other open courses
+                document.querySelectorAll('.course-details').forEach(row => {
+                    row.classList.remove('active');
+                    const btn = row.previousElementSibling.querySelector('.expand-btn');
+                    const icn = btn.querySelector('i');
+                    icn.classList.remove('fa-minus');
+                    icn.classList.add('fa-plus');
+                });
+                
+                // Open clicked course
+                detailsRow.classList.add('active');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
+            }
+        }
+
+        // Mobile Dropdown Toggle
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', (e) => {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const menu = toggle.nextElementSibling;
+                    if (menu && menu.classList.contains('dropdown-menu')) {
+                        menu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - BSc. Computational Data Analytics - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+                    <a href="https://www.uthm.edu.my/" target="_blank" rel="noopener noreferrer">
+						<img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+					</a>
+                    <div class="logo-text">
+                        <!--<span class="uni-name">Universiti Tun Hussein Onn Malaysia</span>
+                        <span class="dept-name">BSc. Computational Data Analytics</span> -->
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">UG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ug-info.html">Program Info</a></li>
+                            <li><a href="ug-curriculum.html">Curriculum</a></li>
+                            <li><a href="ug-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">PG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pg-info.html">Program Info</a></li>
+                            <li><a href="pg-curriculum.html">Curriculum</a></li>
+                            <li><a href="pg-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">WBL Info <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wbl-info.html">About WBL</a></li>
+                            <li><a href="wbl-courses.html">WBL Courses</a></li>
+                            <li><a href="wbl-administration.html">WBL Administration</a></li>
+                            <li><a href="wbl-cohorts.html">WBL Cohorts</a></li>
+                            <!-- <li><a href="#">Industry Partners</a></li>
+                            <li><a href="#">Student Testimonials</a></li> -->
+                        </ul>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="apply-btn"><a href="apply.html" class="active">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> 
+                <span>Apply Now</span>
+            </div>
+            <h1>Begin Your Journey</h1>
+            <p>Take the first step towards a rewarding career in Computational Data Analytics</p>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+        <div class="container">
+
+            <!-- Application Options -->
+            <section class="section apply-section">
+                <div class="section-header">
+                    <span class="section-tag">Admissions</span>
+                    <h2>Choose Your Application Pathway</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Select the appropriate application portal based on your current academic qualification and the program level you wish to pursue.</p>
+                </div>
+                
+                <div class="apply-cards-grid">
+                    
+                    <!-- Undergraduate Card -->
+                    <div class="apply-card ug-card">
+                        <div class="apply-card-header">
+                            <div class="apply-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Undergraduate Program</h3>
+                            <span class="program-badge ug">BSc. Computational Data Analytics</span>
+                        </div>
+                        <div class="apply-card-body">
+                            <p>This 2u2i Work-Based Learning (WBL) program is designed for students who have completed their pre-university qualifications (e.g., STPM, Matriculation, Foundation, or Diploma) and wish to pursue a Bachelor's degree with extensive industry experience.</p>
+                            
+                            <ul class="apply-requirements">
+                                <li><i class="fas fa-check-circle"></i> Duration: 3.5 Years (7 Semesters + 1 Short Sem)</li>
+                                <li><i class="fas fa-check-circle"></i> Mode: 2.5 Years University + 1 Year Industry</li>
+                                <li><i class="fas fa-check-circle"></i> Intake: September annually</li>
+                            </ul>
+                        </div>
+                        <div class="apply-card-footer">
+                            <a href="https://upu.mohe.gov.my/" target="_blank" rel="noopener noreferrer" class="btn btn-primary apply-btn-large">
+                                <i class="fas fa-external-link-alt"></i> Apply via UPU
+                            </a>
+                            <p class="apply-note"><i class="fas fa-info-circle"></i> For Malaysian citizens applying through the centralized UPU system.</p>
+                        </div>
+                    </div>
+
+                    <!-- Postgraduate Card -->
+                    <div class="apply-card pg-card">
+                        <div class="apply-card-header">
+                            <div class="apply-icon">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <h3>Postgraduate Program</h3>
+                            <div class="pg-badges-group">
+								<span class="program-badge pg">Master of Data Analytics (Coursework)</span>
+								<span class="program-badge pg">Master of Science (Research)</span>
+								<span class="program-badge pg">Doctor of Philosophy in Science (Research)</span>
+							</div>
+                        </div>
+                        <div class="apply-card-body">
+                            <p>Designed for graduates and working professionals seeking to advance their expertise in data science, machine learning, and big data analytics through advanced coursework and research components.</p>
+                            
+                            <ul class="apply-requirements">
+                                <li><i class="fas fa-check-circle"></i> Duration: 1 - 4 Years (Full-time / Part-time)</li>
+                                <li><i class="fas fa-check-circle"></i> Mode: Coursework & Research</li>
+                                <li><i class="fas fa-check-circle"></i> Intake: February & September annually</li>
+                            </ul>
+                        </div>
+                        <div class="apply-card-footer">
+                            <a href="https://wapps.uthm.edu.my/intake/" target="_blank" rel="noopener noreferrer" class="btn btn-primary apply-btn-large">
+                                <i class="fas fa-external-link-alt"></i> Apply via UTHM Intake
+                            </a>
+                            <p class="apply-note"><i class="fas fa-info-circle"></i> Direct application through the UTHM Postgraduate Intake portal.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Additional Help Section -->
+            <section class="section help-section">
+                <div class="help-box">
+                    <div class="help-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="help-content">
+                        <h3>Need Assistance with Your Application?</h3>
+                        <p>If you have questions regarding entry requirements, document submission, or the application process, our admissions team is here to help.</p>
+                    </div>
+                    <a href="contact.html" class="btn btn-outline">Contact Admissions</a>
+                </div
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">University</a> | 
+                <a href="#">About CDA</a> | 
+                <a href="#">WBL</a> | 
+                <a href="#">Faculty</a> | 
+                <a href="#">Alumni</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Universiti Tun Hussein Onn Malaysia | Faculty of Computer Science
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Dropdown Toggle -->
+    <script>
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', (e) => {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const menu = toggle.nextElementSibling;
+                    if (menu && menu.classList.contains('dropdown-menu')) {
+                        menu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

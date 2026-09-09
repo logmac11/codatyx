@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Program Info - BSc. Computational Data Analytics - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+                    <a href="https://www.uthm.edu.my/" target="_blank" rel="noopener noreferrer">
+                        <img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+                    </a>
+                    <div class="logo-text">
+                        <!-- <span class="dept-name">BSc. Computational Data Analytics</span> -->
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">UG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ug-info.html">Program Info</a></li>
+                            <li><a href="ug-curriculum.html">Curriculum</a></li>
+                            <li><a href="ug-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active">PG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pg-info.html" class="active">Program Info</a></li>
+                            <li><a href="pg-curriculum.html">Curriculum</a></li>
+                            <li><a href="pg-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">WBL Info <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wbl-info.html">About WBL</a></li>
+                            <li><a href="wbl-courses.html">WBL Courses</a></li>
+                            <li><a href="wbl-administration.html">WBL Administration</a></li>
+                            <li><a href="wbl-cohorts.html">WBL Cohorts</a></li>
+                            <!-- <li><a href="#">Industry Partners</a></li>
+                            <li><a href="#">Student Testimonials</a></li> -->
+                        </ul>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="apply-btn"><a href="apply.html">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> 
+                <span>PG Program</span> <i class="fas fa-chevron-right"></i> 
+                <span>Program Info</span>
+            </div>
+            <h1>Postgraduate Program Info</h1>
+            <p>Master of Data Analytics & PhD in Science</p>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+        <div class="container">
+            
+            <div class="construction-container">
+                <div class="construction-icon">
+                    <i class="fas fa-hard-hat"></i>
+                </div>
+                <h2>Page Under Construction</h2>
+                <div class="title-underline" style="margin: 0 auto 20px auto;"></div>
+                <p class="construction-text">
+                    We are currently developing the detailed information for the Postgraduate Program. 
+                    This page will soon feature comprehensive details about our Master's and PhD offerings, 
+                    research areas, and faculty expertise.
+                </p>
+                <p class="construction-subtext">
+                    Please check back soon for updates, or contact the Head of Program for immediate inquiries.
+                </p>
+                <div class="construction-actions">
+                    <a href="index.html" class="btn btn-primary"><i class="fas fa-home"></i> Return Home</a>
+                    <a href="contact.html" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Us</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">University</a> | <a href="#">About CDA</a> | <a href="#">WBL</a> | <a href="#">Faculty</a> | <a href="#">Alumni</a> | <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Universiti Tun Hussein Onn Malaysia | Faculty of Computer Science
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', (e) => {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const menu = toggle.nextElementSibling;
+                    if (menu && menu.classList.contains('dropdown-menu')) {
+                        menu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBL Administration - BSc. Computational Data Analytics - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+                    <a href="https://www.uthm.edu.my/" target="_blank" rel="noopener noreferrer">
+						<img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+					</a>
+                    <div class="logo-text">
+                        <!--<span class="uni-name">Universiti Tun Hussein Onn Malaysia</span>
+                        <span class="dept-name">BSc. Computational Data Analytics</span> -->
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">UG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ug-info.html">Program Info</a></li>
+                            <li><a href="ug-curriculum.html">Curriculum</a></li>
+                            <li><a href="ug-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">PG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pg-info.html">Program Info</a></li>
+                            <li><a href="pg-curriculum.html">Curriculum</a></li>
+                            <li><a href="pg-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active">WBL Info <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wbl-info.html">About WBL</a></li>
+                            <li><a href="wbl-courses.html">WBL Courses</a></li>
+                            <li><a href="wbl-administration.html" class="active">WBL Administration</a></li>
+							<li><a href="wbl-cohorts.html" >WBL Cohorts</a></li>
+                            <!-- <li><a href="#">Industry Partners</a></li>
+                            <li><a href="#">Student Testimonials</a></li> -->
+                        </ul>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="apply-btn"><a href="apply.html">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> 
+                <span>WBL Experience</span> <i class="fas fa-chevron-right"></i> 
+                <span>WBL Administration</span>
+            </div>
+            <h1>WBL Administration</h1>
+            <p>Rules, regulations, and guidelines for Work-Based Learning at UTHM</p>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+        <div class="container">
+
+            <!-- WBL Rules and Regulations -->
+            <section class="section admin-section">
+                <div class="section-header">
+                    <span class="section-tag">Rules</span>
+                    <h2>WBL Rules and Regulations</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="rules-list">
+                    <div class="rule-item">
+                        <div class="rule-letter">a</div>
+                        <p>UTHM students undergoing WBL must obtain an offer letter that aligns with industry requirements before commencing their placement in the industry.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">b</div>
+                        <p>Students are required to consistently adhere to safety and health regulations established by the industry.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">c</div>
+                        <p>The industry is responsible for conducting orientation sessions.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">d</div>
+                        <p>The industry should provide placements, training on safety and health regulations, and furnish appropriate personal protective equipment facilities in accordance with the students' training needs.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">e</div>
+                        <p>UTHM students undergoing WBL are subject to rules and regulations as stipulated in the UTHM Bachelor's Academic Regulations Book.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">f</div>
+                        <p>UTHM students undergoing WBL are also subject to the rules and regulations stipulated by the industry.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Working Hours -->
+            <section class="section admin-section">
+                <div class="section-header">
+                    <span class="section-tag">Schedule</span>
+                    <h2>Working Hours</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="info-card-large">
+                    <div class="info-icon-large">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="info-content">
+                        <p>The minimum working hours are <strong>40 hours per week</strong>, while the maximum limit during students' Work-Based Learning (WBL) is set at <strong>45 hours per week</strong>. Any duration exceeding this maximum limit requires mutual consent among the organization/industry, university, and the student.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Attendance -->
+            <section class="section admin-section">
+                <div class="section-header">
+                    <span class="section-tag">Attendance</span>
+                    <h2>Attendance Requirements</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="rules-list">
+                    <div class="rule-item">
+                        <div class="rule-letter">a</div>
+                        <p>Students must ensure that their attendance is not less than <strong>80%</strong> throughout the WBL period. However, students are not allowed to be absent arbitrarily even if they have achieved 80% attendance.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">b</div>
+                        <p>Any absence beyond emergency reasons such as death, accidents, and the like must be reported to the organization/industry, and approval is subject to the decision of the organization/industry.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">c</div>
+                        <p>Students must also adhere to working hours and all industry regulations related to leave, sick leave, and public holidays, similar to other employees during the WBL period.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">d</div>
+                        <p>The industry should inform the WBL coordinator appointed for the purpose of necessary actions by UTHM regarding student absenteeism.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Relocation of WBL Placement -->
+            <section class="section admin-section">
+                <div class="section-header">
+                    <span class="section-tag">Relocation</span>
+                    <h2>Relocation of WBL Placement</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="rules-list">
+                    <div class="rule-item">
+                        <div class="rule-letter">a</div>
+                        <p>Students are not allowed to request a change in their placement without obtaining written approval from the UTHM WBL Coordinator.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">b</div>
+                        <p>Any request for a change in placement location must adhere to the existing terms and regulations governing UTHM's Industrial Training implementation.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">c</div>
+                        <p>UTHM is required to formally notify the relevant industry in writing regarding any changes in the placement location before permitting students to transition to another industry.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">d</div>
+                        <p>Students directed by the industry to work at a location other than the one previously approved before undergoing WBL must obtain permission from UTHM for this relocation. Approval will only be granted if the WBL Coordinator is satisfied with the proposed new location to ensure the smooth progress of the students' WBL experience.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Termination of WBL -->
+            <section class="section admin-section">
+                <div class="section-header">
+                    <span class="section-tag">Termination</span>
+                    <h2>Termination of WBL</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="rules-list">
+                    <div class="rule-item">
+                        <div class="rule-letter">a</div>
+                        <p>Students who fail to adhere to all rules and regulations of WBL, UTHM and industry/organization may be subject to disciplinary action.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">b</div>
+                        <p>If found guilty, students may face disciplinary measures, including warnings, fines, and training termination.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">c</div>
+                        <p>Repeat violations of discipline may result in the cessation of studies by the University Discipline Committee.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">d</div>
+                        <p>However, students have the option to request withdrawal from WBL with support from the industry to the WBL Coordinator at UTHM.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">e</div>
+                        <p>Any decision regarding the application to discontinue training will be considered based on the merits of each case.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Confidentiality -->
+            <section class="section admin-section">
+                <div class="section-header">
+                    <span class="section-tag">Confidentiality</span>
+                    <h2>Confidentiality</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="rules-list">
+                    <div class="rule-item">
+                        <div class="rule-letter">a</div>
+                        <p>The regulations at the WBL site regarding attire, confidentiality, and office rules are subject to the terms set by the organization or industry.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">b</div>
+                        <p>Students are prohibited from disclosing any information (whether confidential or not) about the organization to external parties without the organization's permission.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">c</div>
+                        <p>Students are not allowed to print, copy, or take pictures of any documents or equipment deemed confidential without the organization's consent.</p>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">d</div>
+                        <p>Students found to be in violation of any rules or regulations may be subjected to disciplinary actions or penalties based on:</p>
+                        <ul class="sub-rules">
+                            <li>Regulations that have been established by UTHM, and/or;</li>
+                            <li>Regulations established by the industry, and/or;</li>
+                            <li>Procedures for discipline follow relevant guidelines (Bahagian V Acara Tatatertib, Akta Institusi-institusi Pelajaran (Tatatertib) 1976) (Akta 174).</li>
+                        </ul>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-letter">e</div>
+                        <p>In the event of a conflict between UTHM regulations and industry regulations, UTHM regulations shall take precedence.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Insurance -->
+            <section class="section admin-section">
+                <div class="section-header">
+                    <span class="section-tag">Protection</span>
+                    <h2>Insurance</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="info-card-large">
+                    <div class="info-icon-large">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <p>Students will be covered by group insurance protection (<strong>Syarikat Takaful Etiqa</strong>) throughout their Work-Based Learning (WBL) period. However, industries are encouraged to obtain additional insurance coverage if deemed necessary.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">University</a> | 
+                <a href="#">About CDA</a> | 
+                <a href="#">WBL</a> | 
+                <a href="#">Faculty</a> | 
+                <a href="#">Alumni</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Universiti Tun Hussein Onn Malaysia | Faculty of Computer Science
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Dropdown Toggle -->
+    <script>
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', (e) => {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const menu = toggle.nextElementSibling;
+                    if (menu && menu.classList.contains('dropdown-menu')) {
+                        menu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBL Module - BSc. Computational Data Analytics - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+                    <a href="https://www.uthm.edu.my/" target="_blank" rel="noopener noreferrer">
+                        <img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+                    </a>
+                    <div class="logo-text">
+                        <!--<span class="dept-name">BSc. Computational Data Analytics</span>-->
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">UG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ug-info.html">Program Info</a></li>
+                            <li><a href="ug-curriculum.html">Curriculum</a></li>
+                            <li><a href="ug-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">PG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pg-info.html">Program Info</a></li>
+                            <li><a href="pg-curriculum.html">Curriculum</a></li>
+                            <li><a href="pg-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active">WBL Info <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wbl-info.html">About WBL</a></li>
+                            <li><a href="wbl-courses.html">WBL Courses</a></li>
+                            <li><a href="wbl-administration.html">WBL Administration</a></li>
+                            <li><a href="wbl-cohorts.html">WBL Cohorts</a></li>
+                            <li><a href="wbl-module.html" class="active">WBL Module</a></li>
+                            <!--<li><a href="#">Industry Partners</a></li>
+                            <li><a href="#">Student Testimonials</a></li>-->
+                        </ul>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="apply-btn"><a href="apply.html">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> 
+                <span>WBL Info</span> <i class="fas fa-chevron-right"></i> 
+                <span>WBL Module</span>
+            </div>
+            <h1>Work-Based Learning Module</h1>
+            <p>Comprehensive Guide to WBL Implementation</p>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+        <div class="container">
+
+            <!-- Introduction Section -->
+            <section class="section">
+                <div class="content-box">
+                    <div class="section-header">
+                        <span class="section-tag">About the Module</span>
+                        <h2>WBL Module Overview</h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    
+                    <div class="module-intro">
+                        <p class="intro-text">
+                            The <strong>Work-Based Learning (WBL) Module</strong> for the Bachelor of Science in Computational Data Analytics with Honours serves as a comprehensive guide to the implementation of WBL, providing clear and structured guidelines for students, academic supervisors, industry coordinators, and industry coaches involved in the one-year industrial training programme.
+                        </p>
+                        <p class="intro-text">
+                            Developed by the Computational Data Analytics panel from the Department of Mathematics and Statistics, Faculty of Applied Sciences and Technology, this module is designed to strengthen the connection between academic learning and real-world industry practices.
+                        </p>
+                    </div>
+
+                    <!-- Module Details -->
+                    <div class="module-details">
+                        <div class="detail-grid">
+                            <div class="detail-card">
+                                <i class="fas fa-users"></i>
+                                <h4>For Students</h4>
+                                <p>Guidelines on WBL expectations, responsibilities, and assessment criteria</p>
+                            </div>
+                            <div class="detail-card">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <h4>For Academic Supervisors</h4>
+                                <p>Roles, responsibilities, and monitoring procedures for student supervision</p>
+                            </div>
+                            <div class="detail-card">
+                                <i class="fas fa-user-tie"></i>
+                                <h4>For Industry Coordinators</h4>
+                                <p>Coordination procedures and industry partnership guidelines</p>
+                            </div>
+                            <div class="detail-card">
+                                <i class="fas fa-briefcase"></i>
+                                <h4>For Industry Coaches</h4>
+                                <p>Mentoring guidelines and student assessment frameworks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Download Section with Password Protection -->
+            <section class="section">
+                <div class="download-section-protected">
+                    <div class="download-header">
+                        <i class="fas fa-lock"></i>
+                        <h3>Access WBL Module</h3>
+                        <p>This document contains confidential information. Password protection is required for access.</p>
+                    </div>
+                    
+                    <div class="download-badge-wrapper">
+                        <a href="#" onclick="checkAccess('wbl-module.pdf'); return false;" class="download-badge">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Download WBL Module (PDF)</span>
+                            <i class="fas fa-lock"></i>
+                        </a>
+                    </div>
+                    
+                    <p class="download-note">
+                        <i class="fas fa-info-circle"></i> 
+                        Authorized personnel only. You will be prompted to enter the access password.
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ================= PASSWORD MODAL ================= -->
+    <div id="passwordModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Authorized Access Only</h3>
+            </div>
+            <div class="modal-body">
+                <p>Please enter the WBL Module access passkey to proceed.</p>
+                <input type="password" id="passkeyInput" placeholder="Enter passkey" onkeypress="handleEnter(event)">
+                <p id="errorMsg" class="error-text">Incorrect passkey. Please try again.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-modal cancel" onclick="closeModal()">Cancel</button>
+                <button type="button" class="btn-modal submit" onclick="verifyPassword()">Unlock</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">University</a> | 
+                <a href="#">About CDA</a> | 
+                <a href="#">WBL</a> | 
+                <a href="#">Faculty</a> | 
+                <a href="#">Alumni</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Universiti Tun Hussein Onn Malaysia | Faculty of Computer Science
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script>
+        // Mobile Dropdown Toggle
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', (e) => {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const menu = toggle.nextElementSibling;
+                    if (menu && menu.classList.contains('dropdown-menu')) {
+                        menu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+
+        // Password Protection Logic
+        let targetUrl = '';
+        const correctPasskey = 'bwscohort1'; // Same password as assessment
+
+        function checkAccess(url) {
+            console.log("Access requested for:", url);
+            targetUrl = url;
+            
+            const modal = document.getElementById('passwordModal');
+            const input = document.getElementById('passkeyInput');
+            const errorMsg = document.getElementById('errorMsg');
+            
+            if (modal && input && errorMsg) {
+                modal.classList.add('active');
+                input.value = '';
+                errorMsg.style.display = 'none';
+                setTimeout(() => input.focus(), 100);
+            }
+        }
+
+        function verifyPassword() {
+            const input = document.getElementById('passkeyInput');
+            const errorMsg = document.getElementById('errorMsg');
+            const enteredPasskey = input.value;
+            
+            if (enteredPasskey === correctPasskey) {
+                if (!targetUrl) {
+                    alert("Error: No file found. Please try again.");
+                    return;
+                }
+                
+                // Close modal
+                const modal = document.getElementById('passwordModal');
+                if (modal) modal.classList.remove('active');
+                
+                // Navigate to the PDF
+                setTimeout(() => {
+                    window.location.href = targetUrl;
+                }, 300);
+                
+            } else {
+                errorMsg.style.display = 'block';
+                input.value = '';
+                input.focus();
+            }
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('passwordModal');
+            if (modal) modal.classList.remove('active');
+            targetUrl = '';
+        }
+
+        function handleEnter(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                verifyPassword();
+            }
+        }
+
+        // Close modal when clicking outside
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('passwordModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeModal();
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

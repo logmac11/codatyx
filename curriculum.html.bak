@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Structure - BSc. Computational Data Analytics (WBL) - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+                    <img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+                    <div class="logo-text">
+                        <span class="uni-name">Universiti Tun Hussein Onn Malaysia</span>
+                        <span class="dept-name">BSc. Computational Data Analytics</span>
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Program</a></li>
+                    <!-- <li><a href="curriculum.html" class="active">Curriculum Structure</a></li> -->
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">WBL Experience <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="apply-btn"><a href="#">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO BANNER ================= -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Curriculum Structure</span>
+            </div>
+            <h1>Curriculum Structure</h1>
+            <p>Bachelor of Science (Computational Data Analytics) with Honours - 2u2i Program</p>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+        <div class="container">
+
+            <!-- Year Navigation Tabs -->
+            <div class="year-tabs">
+                <button class="year-tab active" data-year="year1">Year 1</button>
+                <button class="year-tab" data-year="year2">Year 2</button>
+                <button class="year-tab" data-year="year3">Year 3</button>
+                <button class="year-tab" data-year="year4">Year 4</button>
+            </div>
+
+            <!-- YEAR 1 -->
+            <div class="year-content active" id="year1">
+                <div class="year-header">
+                    <h2>Year 1</h2>
+                    <div class="year-underline"></div>
+                </div>
+
+                <!-- Semester 1 -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Semester 1</h3>
+                        <span class="credit-badge">Total: 16 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td rowspan="7" class="sem-cell">1</td>
+                                    <td>UHB13102</td>
+                                    <td class="course-name-cell">English for General Communication</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s1-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s1-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>This course focuses on developing students' English language skills for general communication in academic and professional settings. Topics include grammar, vocabulary, reading comprehension, writing skills, and oral communication.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>UQI10102/ UQI102</td>
+                                    <td class="course-name-cell">Islamic Studies / Moral Studies</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s1-2"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s1-2">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>This course provides foundational knowledge in Islamic studies or moral studies, emphasizing ethical values, moral reasoning, and their application in personal and professional life.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>UQ*1**01</td>
+                                    <td class="course-name-cell">Co-Curriculum I</td>
+                                    <td>1</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s1-3"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s1-3">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Co-curricular activities designed to develop students' soft skills, leadership, teamwork, and physical fitness through various clubs, societies, and sports activities.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>UQI11202/ UQU113</td>
+                                    <td class="course-name-cell">Integrity and Anti-Corruption</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s1-4"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s1-4">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>This course introduces the concepts of integrity, ethics, and anti-corruption. Students learn about ethical decision-making, governance, and the importance of integrity in professional practice.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS10103</td>
+                                    <td class="course-name-cell">Applied Calculus</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s1-5"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s1-5">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>This course covers fundamental calculus concepts including limits, derivatives, integrals, and their applications in data science and engineering problems. Emphasis on practical problem-solving.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS10203</td>
+                                    <td class="course-name-cell">Data Programming I</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s1-6"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s1-6">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Introduction to programming concepts using Python for data science. Topics include variables, data types, control structures, functions, and basic data manipulation using libraries like NumPy and Pandas.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS10403</td>
+                                    <td class="course-name-cell">Introduction to Data Science</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s1-7"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s1-7">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Overview of data science fundamentals including data collection, cleaning, exploration, and visualization. Introduction to the data science workflow and tools used in the industry.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>16</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Semester 2 -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Semester 2</h3>
+                        <span class="credit-badge">Total: 19 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td rowspan="8" class="sem-cell">2</td>
+                                    <td>UQI11302/ UQI</td>
+                                    <td class="course-name-cell">Philosophy and Current Issues</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Introduction to philosophical thinking and analysis of current issues. Develops critical thinking skills and the ability to analyze complex social and ethical problems.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>**02/ UWB11</td>
+                                    <td class="course-name-cell">Foreign Language / Malay Language*</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-2"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-2">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Language course focusing on communication skills in either a foreign language (e.g., Arabic, Japanese, Mandarin) or Bahasa Melayu for non-native speakers.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>UQI102/ 10802/ UQ</td>
+                                    <td class="course-name-cell">Appreciation of Ethics and Civilization/ Islam in Asia</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-3"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-3">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Explores ethical values, civilization development, and the role of Islam in Asian societies. Promotes understanding of cultural diversity and ethical frameworks.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>UQ*1**01</td>
+                                    <td class="course-name-cell">Co-Curriculum II</td>
+                                    <td>1</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-4"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-4">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Continuation of co-curricular activities focusing on advanced leadership, community service, and personal development through structured programs.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS10303</td>
+                                    <td class="course-name-cell">Probability and Statistics</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-5"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-5">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Fundamental concepts in probability theory and statistical inference. Topics include probability distributions, hypothesis testing, confidence intervals, and regression analysis basics.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS10503</td>
+                                    <td class="course-name-cell">Discrete Mathematics</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-6"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-6">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Introduction to discrete mathematical structures including logic, sets, relations, functions, graphs, and combinatorics. Essential foundation for computer science and data analytics.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS10603</td>
+                                    <td class="course-name-cell">Data Programming II</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-7"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-7">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Advanced programming concepts for data science including object-oriented programming, data structures, file handling, and introduction to databases using Python.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS10703</td>
+                                    <td class="course-name-cell">Linear Algebra</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u1s2-8"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u1s2-8">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Study of vectors, matrices, linear transformations, eigenvalues, and eigenvectors. Applications in data science, machine learning, and computational problems.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>19</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YEAR 2 -->
+            <div class="year-content" id="year2">
+                <div class="year-header">
+                    <h2>Year 2</h2>
+                    <div class="year-underline"></div>
+                </div>
+
+                <!-- Semester 3 -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Semester 3</h3>
+                        <span class="credit-badge">Total: 20 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td rowspan="7" class="sem-cell">3</td>
+                                    <td>UHB23102</td>
+                                    <td class="course-name-cell">English for Technical Communication</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s3-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s3-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Advanced English communication skills for technical and professional contexts. Covers technical writing, report preparation, presentations, and professional correspondence.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS20803</td>
+                                    <td class="course-name-cell">Regression Analysis</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s3-2"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s3-2">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Comprehensive study of regression techniques including simple and multiple linear regression, logistic regression, model diagnostics, and applications in data analysis.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS20903</td>
+                                    <td class="course-name-cell">Applied Numerical Methods</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s3-3"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s3-3">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Numerical techniques for solving mathematical problems computationally. Topics include root finding, interpolation, numerical integration, and solving differential equations.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21003</td>
+                                    <td class="course-name-cell">Inferential Statistics</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s3-4"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s3-4">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Advanced statistical inference methods including estimation theory, hypothesis testing, ANOVA, chi-square tests, and non-parametric methods for data analysis.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21103</td>
+                                    <td class="course-name-cell">Data Structure and Algorithm</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s3-5"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s3-5">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Fundamental data structures (arrays, linked lists, trees, graphs) and algorithm design techniques. Emphasis on efficiency analysis and practical implementation for data processing.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21203</td>
+                                    <td class="course-name-cell">Relational Database and Query Language* (OC)</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s3-6"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s3-6">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Database design principles, relational model, normalization, and SQL programming. Covers database management systems and practical applications in data storage and retrieval.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWU10103</td>
+                                    <td class="course-name-cell">Technopreneuship</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s3-7"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s3-7">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Introduction to technology entrepreneurship, innovation management, business planning, and startup development. Prepares students for entrepreneurial ventures in tech industries.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>20</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Semester 4 -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Semester 4</h3>
+                        <span class="credit-badge">Total: 20 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td rowspan="7" class="sem-cell">4</td>
+                                    <td>BWU10202</td>
+                                    <td class="course-name-cell">Creativity and Innovation</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s4-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s4-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Develops creative thinking and innovation skills. Covers design thinking, problem-solving techniques, and innovation processes applicable in data science and technology.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21303</td>
+                                    <td class="course-name-cell">Applied Multivariate Analysis</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s4-2"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s4-2">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Advanced statistical methods for analyzing multiple variables simultaneously. Topics include factor analysis, cluster analysis, discriminant analysis, and principal component analysis.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21403</td>
+                                    <td class="course-name-cell">Big Data Analytics with Cloud Computing</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s4-3"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s4-3">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Introduction to big data technologies and cloud computing platforms. Covers Hadoop, Spark, cloud services (AWS, Azure), and distributed data processing techniques.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21603</td>
+                                    <td class="course-name-cell">Time Series Analysis</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s4-4"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s4-4">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Analysis of time-dependent data including trend analysis, seasonal decomposition, ARIMA models, and forecasting techniques for business and scientific applications.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21703</td>
+                                    <td class="course-name-cell">Operations Research and Analytics *(OC)</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s4-5"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s4-5">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Optimization techniques and decision-making models including linear programming, integer programming, network models, and simulation for operational efficiency.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21803</td>
+                                    <td class="course-name-cell">Machine Learning</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s4-6"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s4-6">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Fundamental machine learning algorithms including supervised and unsupervised learning, classification, regression, clustering, and model evaluation techniques.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS21903</td>
+                                    <td class="course-name-cell">Exploratory Data Analysis & Visualization</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u2s4-7"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u2s4-7">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Techniques for exploring and visualizing data using tools like Matplotlib, Seaborn, and Tableau. Covers data storytelling, dashboard creation, and effective communication of insights.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>20</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YEAR 3 -->
+            <div class="year-content" id="year3">
+                <div class="year-header">
+                    <h2>Year 3</h2>
+                    <div class="year-underline"></div>
+                </div>
+
+                <!-- Semester 5 -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Semester 5</h3>
+                        <span class="credit-badge">Total: 20 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td rowspan="7" class="sem-cell">5</td>
+                                    <td>UHB33102</td>
+                                    <td class="course-name-cell">English for Professional Communication</td>
+                                    <td>2</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s5-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s5-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Advanced professional communication skills including business writing, presentation skills, negotiation, and cross-cultural communication in professional settings.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS32003</td>
+                                    <td class="course-name-cell">Text Analytics</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s5-2"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s5-2">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Natural language processing techniques for analyzing text data. Covers text mining, sentiment analysis, topic modeling, and applications in social media and business analytics.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS32103</td>
+                                    <td class="course-name-cell">Risk Analysis</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s5-3"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s5-3">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Quantitative and qualitative risk assessment methods. Topics include risk modeling, Monte Carlo simulation, decision analysis, and risk management frameworks.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS32203</td>
+                                    <td class="course-name-cell">Decision Support and Business Intelligence</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s5-4"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s5-4">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Business intelligence systems, data warehousing, OLAP, and decision support tools. Covers BI platforms, KPI dashboards, and strategic decision-making using data.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS33x03(1)</td>
+                                    <td class="course-name-cell">Elective I</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s5-5"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s5-5">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Specialized elective course allowing students to explore advanced topics in data analytics based on their interests and career goals.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS33x03(2)</td>
+                                    <td class="course-name-cell">Elective II</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s5-6"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s5-6">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Second elective course providing depth in specialized areas such as advanced machine learning, data engineering, or domain-specific analytics applications.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS33x03(3)</td>
+                                    <td class="course-name-cell">Elective III</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s5-7"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s5-7">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Third elective course offering flexibility to pursue emerging topics in data science, AI, or industry-specific applications based on student interest.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>20</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Semester 6 -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Semester 6 (WBL)</h3>
+                        <span class="credit-badge">Total: 11 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td rowspan="3" class="sem-cell">6</td>
+                                    <td>BWS44003</td>
+                                    <td class="course-name-cell">IT Professional Practice and Ethics *(WBL)</td>
+                                    <td>3</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s6-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s6-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Professional ethics and practice in IT industry. Covers code of conduct, professional responsibilities, legal issues, and ethical decision-making in workplace settings during WBL.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS44104</td>
+                                    <td class="course-name-cell">Data Analytics and Management *(WBL)</td>
+                                    <td>4</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s6-2"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s6-2">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Practical application of data analytics in industry settings. Students work on real-world data projects, learning data management, analysis, and reporting in professional environments.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS44204</td>
+                                    <td class="course-name-cell">Professional Development*(WBL)</td>
+                                    <td>4</td>
+                                    <td><button class="expand-btn" data-target="syn-u3s6-3"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3s6-3">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Professional skills development during industry placement. Includes workplace communication, project management, teamwork, and career development activities.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>11</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Short Semester -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Short Semester</h3>
+                        <span class="credit-badge">Total: 4 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td class="sem-cell">Short</td>
+                                    <td>BWS44304</td>
+                                    <td class="course-name-cell">Industry Integrated Project Proposal</td>
+                                    <td>4</td>
+                                    <td><button class="expand-btn" data-target="syn-u3ss-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u3ss-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Development of project proposal for the final year industry-integrated project. Students identify problems, conduct literature review, and propose solutions based on industry experience.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>4</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YEAR 4 -->
+            <div class="year-content" id="year4">
+                <div class="year-header">
+                    <h2>Year 4</h2>
+                    <div class="year-underline"></div>
+                </div>
+
+                <!-- Semester 7 -->
+                <div class="semester-block">
+                    <div class="semester-header">
+                        <h3>Semester 7</h3>
+                        <span class="credit-badge">Total: 10 Credits</span>
+                    </div>
+                    <div class="course-table-wrapper">
+                        <table class="course-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Sem</th>
+                                    <th style="width: 150px;">Course Code</th>
+                                    <th>Course Name</th>
+                                    <th style="width: 80px;">Credit</th>
+                                    <th style="width: 50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="course-row">
+                                    <td rowspan="2" class="sem-cell">7</td>
+                                    <td>BWS44404</td>
+                                    <td class="course-name-cell">Industry Integrated Project Framework & Development*(WBL)</td>
+                                    <td>4</td>
+                                    <td><button class="expand-btn" data-target="syn-u4s7-1"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u4s7-1">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Implementation of the industry-integrated project. Students apply data analytics skills to solve real industry problems, developing solutions under industry and academic supervision.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="course-row">
+                                    <td>BWS44506</td>
+                                    <td class="course-name-cell">Industry Integrated Project</td>
+                                    <td>6</td>
+                                    <td><button class="expand-btn" data-target="syn-u4s7-2"><i class="fas fa-plus"></i></button></td>
+                                </tr>
+                                <tr class="synopsis-row" id="syn-u4s7-2">
+                                    <td colspan="4">
+                                        <div class="synopsis-content">
+                                            <p>Capstone project integrating all knowledge and skills acquired. Students complete a comprehensive data analytics project, presenting findings and solutions to industry stakeholders.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><strong>Total</strong></td>
+                                    <td colspan="2"><strong>10</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">University</a> | 
+                <a href="#">About CDA</a> | 
+                <a href="#">WBL</a> | 
+                <a href="#">Faculty</a> | 
+                <a href="#">Alumni</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Universiti Tun Hussein Onn Malaysia | Faculty of Computer Science
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Year Tabs and Expand/Collapse -->
+    <script>
+        // Year Tab Switching
+        const yearTabs = document.querySelectorAll('.year-tab');
+        const yearContents = document.querySelectorAll('.year-content');
+
+        yearTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active from all tabs and contents
+                yearTabs.forEach(t => t.classList.remove('active'));
+                yearContents.forEach(c => c.classList.remove('active'));
+                
+                // Add active to clicked tab and corresponding content
+                tab.classList.add('active');
+                const targetYear = tab.getAttribute('data-year');
+                document.getElementById(targetYear).classList.add('active');
+            });
+        });
+
+        // Expand/Collapse Synopsis
+        const expandBtns = document.querySelectorAll('.expand-btn');
+
+        expandBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetId = btn.getAttribute('data-target');
+                const synopsisRow = document.getElementById(targetId);
+                const icon = btn.querySelector('i');
+                
+                // Toggle visibility
+                if (synopsisRow.classList.contains('active')) {
+                    synopsisRow.classList.remove('active');
+                    icon.classList.remove('fa-minus');
+                    icon.classList.add('fa-plus');
+                } else {
+                    synopsisRow.classList.add('active');
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-minus');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

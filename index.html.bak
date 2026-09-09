@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSc. Computational Data Analytics (WBL) - UTHM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container header-flex">
+                <div class="logo-area">
+					<a href="https://www.uthm.edu.my/" target="_blank" rel="noopener noreferrer">
+						<img src="uthmlogo.png" alt="UTHM Logo" class="logo">
+					</a>
+                    
+                    <div class="logo-text">
+                        <!--<span class="uni-name">Universiti Tun Hussein Onn Malaysia</span>
+                        <span class="dept-name">BSc. Computational Data Analytics</span> -->
+                    </div>
+                </div>
+                <div class="search-area">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- UPDATED NAVIGATION WITH DROPDOWNS -->
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    
+                    <!-- UG Program Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">UG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ug-info.html">Program Info</a></li>
+                            <li><a href="ug-curriculum.html">Curriculum</a></li>
+                            <li><a href="ug-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- PG Program Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">PG Program <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pg-info.html">Program Info</a></li>
+                            <li><a href="pg-curriculum.html">Curriculum</a></li>
+                            <li><a href="pg-admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="staff.html">Staff</a></li>
+                    
+                    <!-- WBL Experience Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">WBL Info <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wbl-info.html">About WBL</a></li>
+                            <li><a href="wbl-courses.html">WBL Courses</a></li>
+                            <li><a href="wbl-administration.html">WBL Administration</a></li>
+							<li><a href="wbl-cohorts.html">WBL Cohorts</a></li>
+                            <!-- <li><a href="#">Industry Partners</a></li>
+                            <li><a href="#">Student Testimonials</a></li> -->
+                        </ul>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="apply-btn"><a href="apply.html">Apply Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO SECTION WITH TOP ANNOUNCEMENT ================= -->
+    <section class="hero-section">
+        <div class="container">
+            
+            <!-- FEATURED ANNOUNCEMENT PANE (AT THE TOP) -->
+            <div class="announcement-pane-top">
+                <div class="announcement-pane">
+                    <div class="pane-header">
+                        <h2><i class="fas fa-bullhorn"></i> Featured Announcements</h2>
+                    </div>
+                    
+                    <div class="announcement-slider">
+                        <!-- Slide 1 -->
+                        <div class="slide active-slide">
+                            <div class="slide-content">
+                                <span class="slide-tag">WBL Placement</span>
+                                <h3>WBL Industry Briefing Session: Batch 2026</h3>
+                                <p>Join us for the mandatory briefing on industry placement matching, resume workshops, and interview preparations.</p>
+                                <div class="slide-meta">
+                                    <span><i class="far fa-calendar"></i> Oct 25, 2026</span>
+                                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="WBL Briefing">
+                                <div class="image-fade"></div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <span class="slide-tag">Achievement</span>
+                                <h3>Students Win National Data Hackathon 2026</h3>
+                                <p>Our 3rd-year CDA team secured 1st place at the National Big Data Hackathon, sponsored by top tech firms.</p>
+                                <div class="slide-meta">
+                                    <span><i class="far fa-calendar"></i> Oct 20, 2026</span>
+                                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" alt="Hackathon">
+                                <div class="image-fade"></div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <span class="slide-tag">New Course</span>
+                                <h3>New Elective: Generative AI for Business Analytics</h3>
+                                <p>Starting next semester, explore the integration of LLMs and generative models in enterprise data workflows.</p>
+                                <div class="slide-meta">
+                                    <span><i class="far fa-calendar"></i> Oct 15, 2026</span>
+                                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80" alt="AI">
+                                <div class="image-fade"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slider Dots -->
+                    <div class="slider-dots">
+                        <span class="dot active-dot" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HERO BANNER CONTENT (BELOW ANNOUNCEMENT) -->
+            <div class="hero-banner-content">
+                <div class="hero-badge">
+                    <span><i class="fas fa-check-circle"></i> MQA Accredited</span>
+                    <span class="divider">|</span>
+                    <span><i class="fas fa-check-circle"></i> WBL Program</span>
+					<span class="divider">|</span>
+                    <span><i class="fas fa-check-circle"></i> Institues of Analytics Recognized Program</span>
+                </div>
+                <h1>COMPUTATIONAL DATA ANALYTICS</h1>
+                <h2>Leading Innovation Through Work-Based Learning</h2>
+                <p>Bridging advanced data science with real-world industry experience. Prepare for the future of big data, AI, and business intelligence.</p>
+                <div class="hero-buttons">
+                    <a href="ug-info.html" class="btn btn-primary">Explore UG Program</a>
+                    <a href="pg-info.html" class="btn btn-outline">Explore PG Program</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MAIN CONTENT AREA ================= -->
+    <main class="main-content">
+        <!--<div class="container content-grid">-->
+            
+            <!-- LEFT COLUMN: News -->
+            <div class="content-center">
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-img"><img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="News"></div>
+                        <div class="news-body">
+                            <h4>Guest Lecture: Data Ethics in AI</h4>
+                            <p>Dr. Alan Turing from TechCorp will discuss ethical frameworks.</p>
+                            <span class="date">Oct 18, 2026</span>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <div class="news-img"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80" alt="News"></div>
+                        <div class="news-body">
+                            <h4>WBL Partner: DataSys Sdn Bhd</h4>
+                            <p>We welcome our newest industry partner for the 2027 intake.</p>
+                            <span class="date">Oct 12, 2026</span>
+                        </div>
+                    </div>
+					<div class="news-card">
+                        <div class="news-img"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80" alt="News"></div>
+                        <div class="news-body">
+                            <h4>WBL Partner: DataSys Sdn Bhd</h4>
+                            <p>We welcome our newest industry partner for the 2027 intake.</p>
+                            <span class="date">Oct 12, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN: Sidebar -->
+            <!--<aside class="content-right">
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Upcoming Events</h3>
+                    <div class="calendar-header">
+                        <span>October 2026</span>
+                        <div class="cal-nav"><i class="fas fa-chevron-left"></i> <i class="fas fa-chevron-right"></i></div>
+                    </div>
+                    <ul class="event-list">
+                        <li class="event-item red-border">
+                            <strong>WBL Briefing Session</strong>
+                            <span>Oct 25, 2026 - Hall A</span>
+                        </li>
+                        <li class="event-item red-border">
+                            <strong>Industry Talk: Big Data</strong>
+                            <span>Oct 28, 2026 - Online</span>
+                        </li>
+                        <li class="event-item grey-border">
+                            <strong>Student Seminar Series</strong>
+                            <span>Oct 30, 2026 - Lab 3</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Quick Links</h3>
+                    <ul class="quick-links">
+                        <li><a href="#"><i class="fas fa-file-alt"></i> Apply Now</a></li>
+                        <li><a href="#"><i class="fas fa-graduation-cap"></i> Entry Requirements</a></li>
+                        <li><a href="#"><i class="fas fa-book"></i> Curriculum Structure</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> WBL Guidelines</a></li>
+                        <li><a href="#"><i class="fas fa-building"></i> Industry Partners</a></li>
+                        <li><a href="#"><i class="fas fa-user-tie"></i> Academic Advisors</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget stats-widget">
+                    <h3 class="widget-title">Program Stats</h3>
+                    <div class="stat-item">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Graduate Employability</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">WBL Industry Partners</span>
+                    </div>
+                </div>
+            </aside>-->
+        <!--</div>->
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="uthm.edu.my">University</a> | 
+                <a href="#">About CDA</a> | 
+                <a href="#">WBL</a> | 
+                <a href="#">Faculty</a> | 
+                <a href="#">Alumni</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 CODATYX UTHM
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Announcement Slider Logic
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        let currentSlide = 0;
+
+        function goToSlide(index) {
+            slides[currentSlide].classList.remove('active-slide');
+            dots[currentSlide].classList.remove('active-dot');
+            currentSlide = index;
+            slides[currentSlide].classList.add('active-slide');
+            dots[currentSlide].classList.add('active-dot');
+        }
+
+        function nextSlide() {
+            goToSlide((currentSlide + 1) % slides.length);
+        }
+
+        let slideInterval = setInterval(nextSlide, 5000);
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                clearInterval(slideInterval);
+                goToSlide(index);
+                slideInterval = setInterval(nextSlide, 5000);
+            });
+        });
+
+        // Mobile Dropdown Toggle Logic
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', (e) => {
+                // Only prevent default and toggle on mobile screens
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const menu = toggle.nextElementSibling;
+                    if (menu && menu.classList.contains('dropdown-menu')) {
+                        menu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

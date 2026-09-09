@@ -1,0 +1,392 @@
+{
+  "semester2": [
+    {
+      "date": "2/3/2026",
+      "weekWBL": "1",
+      "weekAcademic": "-",
+      "matters": "Students register to the industry",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "8/3/2026",
+      "weekWBL": "1",
+      "weekAcademic": "-",
+      "matters": "Senior Student register courses",
+      "highlight": false,
+      "important": true
+    },
+    {
+      "date": "9/3/2026 - 15/3/2026",
+      "weekWBL": "2",
+      "weekAcademic": "-",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "16/3/2026 - 22/3/2026",
+      "weekWBL": "3",
+      "weekAcademic": "1",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "23/3/2026 - 29/3/2026",
+      "weekWBL": "4",
+      "weekAcademic": "2",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "30/3/2026 - 5/4/2026",
+      "weekWBL": "5",
+      "weekAcademic": "3",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "6/4/2026 - 12/4/2026",
+      "weekWBL": "6",
+      "weekAcademic": "4",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "13/4/2026 - 19/4/2026",
+      "weekWBL": "7",
+      "weekAcademic": "5",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "20/4/2026 - 26/4/2026",
+      "weekWBL": "8",
+      "weekAcademic": "6",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "27/4/2026 - 3/5/2026",
+      "weekWBL": "9",
+      "weekAcademic": "7",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "4/5/2026 - 10/5/2026",
+      "weekWBL": "10",
+      "weekAcademic": "8",
+      "matters": "1st Industrial Assessment (online)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "11/5/2026 - 17/5/2026",
+      "weekWBL": "11",
+      "weekAcademic": "9",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "18/5/2026 - 24/5/2026",
+      "weekWBL": "12",
+      "weekAcademic": "10",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "25/5/2026 - 31/5/2026",
+      "weekWBL": "13",
+      "weekAcademic": "11",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "1/6/2026 - 7/6/2026",
+      "weekWBL": "14",
+      "weekAcademic": "12",
+      "matters": "1st Industrial Visit (f2f)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "8/6/2026 - 14/6/2026",
+      "weekWBL": "15",
+      "weekAcademic": "13",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "15/6/2026 - 21/6/2026",
+      "weekWBL": "16",
+      "weekAcademic": "14",
+      "matters": "2nd Industrial Assessment (online)<br>2nd Industrial Visit (online)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "22/6/2026 - 28/6/2026",
+      "weekWBL": "17",
+      "weekAcademic": "15",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "29/6/2026 - 5/7/2026",
+      "weekWBL": "18",
+      "weekAcademic": "16",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "6/7/2026 - 12/7/2026",
+      "weekWBL": "19",
+      "weekAcademic": "17",
+      "matters": "Student Assessment System (SAS) Closed",
+      "highlight": true,
+      "important": false
+    }
+  ],
+  "shortSemester": [
+    {
+      "date": "13/7/2026",
+      "weekWBL": "1",
+      "weekAcademic": "-",
+      "matters": "Students register to the industry<br><span class='text-danger'><strong>Students register courses</strong></span>",
+      "highlight": false,
+      "important": true
+    },
+    {
+      "date": "20/7/2026 - 26/7/2026",
+      "weekWBL": "2",
+      "weekAcademic": "1",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "27/7/2026 - 2/8/2026",
+      "weekWBL": "3",
+      "weekAcademic": "2",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "3/8/2026 - 9/8/2026",
+      "weekWBL": "4",
+      "weekAcademic": "3",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "10/8/2026 - 16/8/2026",
+      "weekWBL": "5",
+      "weekAcademic": "4",
+      "matters": "1st Industrial Assessment (online)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "17/8/2026 - 23/8/2026",
+      "weekWBL": "6",
+      "weekAcademic": "5",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "24/8/2026 - 30/8/2026",
+      "weekWBL": "7",
+      "weekAcademic": "6",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "31/8/2026 - 6/9/2026",
+      "weekWBL": "8",
+      "weekAcademic": "7",
+      "matters": "2nd Industrial Assessment (online)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "7/9/2026 - 13/9/2026",
+      "weekWBL": "9",
+      "weekAcademic": "8",
+      "matters": "Student Assessment System (SAS) Closed",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "13/9/2026",
+      "weekWBL": "9",
+      "weekAcademic": "-",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    }
+  ],
+  "semester1": [
+    {
+      "date": "18/9/2026",
+      "weekWBL": "1",
+      "weekAcademic": "-",
+      "matters": "Students register to the industry",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "21/9/2026 - 27/9/2026",
+      "weekWBL": "2",
+      "weekAcademic": "-",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "28/9/2026 - 4/10/2026",
+      "weekWBL": "3",
+      "weekAcademic": "-",
+      "matters": "Senior students register courses",
+      "highlight": false,
+      "important": true
+    },
+    {
+      "date": "5/10/2026 - 11/10/2026",
+      "weekWBL": "4",
+      "weekAcademic": "1",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "12/10/2026 - 18/10/2026",
+      "weekWBL": "5",
+      "weekAcademic": "2",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "19/10/2026 - 25/10/2026",
+      "weekWBL": "6",
+      "weekAcademic": "3",
+      "matters": "1st Industrial Visit (online)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "26/10/2026 - 1/11/2026",
+      "weekWBL": "7",
+      "weekAcademic": "4",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "2/11/2026 - 8/11/2026",
+      "weekWBL": "8",
+      "weekAcademic": "5",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "9/11/2026 - 15/11/2026",
+      "weekWBL": "9",
+      "weekAcademic": "6",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "16/11/2026 - 22/11/2026",
+      "weekWBL": "10",
+      "weekAcademic": "7",
+      "matters": "1st Industrial Assessment (online)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "23/11/2026 - 29/11/2026",
+      "weekWBL": "11",
+      "weekAcademic": "8",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "30/11/2026 - 6/12/2026",
+      "weekWBL": "12",
+      "weekAcademic": "9",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "7/12/2026 - 13/12/2026",
+      "weekWBL": "13",
+      "weekAcademic": "10",
+      "matters": "2nd Industrial Visit (f2f)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "14/12/2026 - 20/12/2026",
+      "weekWBL": "14",
+      "weekAcademic": "11",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "21/12/2026 - 27/12/2026",
+      "weekWBL": "15",
+      "weekAcademic": "12",
+      "matters": "2nd Industrial Assessment (online)",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "28/12/2026 - 3/1/2027",
+      "weekWBL": "16",
+      "weekAcademic": "13",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    },
+    {
+      "date": "4/1/2027 - 10/1/2027",
+      "weekWBL": "17",
+      "weekAcademic": "14",
+      "matters": "Student Assessment System (SAS) Closed",
+      "highlight": true,
+      "important": false
+    },
+    {
+      "date": "11/1/2027 - 15/1/2027",
+      "weekWBL": "18",
+      "weekAcademic": "15",
+      "matters": "",
+      "highlight": false,
+      "important": false
+    }
+  ]
+}

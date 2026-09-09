@@ -1,0 +1,610 @@
+/* ================= VARIABLES & RESET ================= */
+:root {
+    --primary-red: #C41E3A;
+    --primary-navy: #0B1D3A;
+    --accent-grey: #F0F2F5;
+    --text-dark: #1A1A2E;
+    --text-light: #FFFFFF;
+    --text-muted: #6c757d;
+    --border-color: #e0e0e0;
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--accent-grey);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ================= HEADER & NAVIGATION ================= */
+.top-bar {
+    background-color: var(--primary-navy);
+    color: var(--text-light);
+    padding: 15px 0;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    background: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.logo-text { display: flex; flex-direction: column; }
+
+.uni-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.dept-name {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.search-area {
+    display: flex;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-area input {
+    border: none;
+    padding: 8px 12px;
+    outline: none;
+    font-family: var(--font-body);
+}
+
+.search-area button {
+    background: var(--primary-red);
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.main-nav {
+    background-color: var(--primary-navy);
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.nav-links { display: flex; gap: 5px; }
+
+.nav-links li a {
+    display: block;
+    color: var(--text-light);
+    padding: 15px 18px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    background-color: var(--primary-red);
+}
+
+.apply-btn a {
+    background-color: var(--primary-red);
+    font-weight: 600;
+}
+
+.apply-btn a:hover { background-color: #a01830; }
+
+/* ================= PAGE HERO BANNER ================= */
+.page-hero {
+    position: relative;
+    background: linear-gradient(135deg, var(--primary-navy) 0%, #1a365d 60%, #2a4a7f 100%);
+    color: var(--text-light);
+    padding: 80px 0 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.page-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -20%;
+    width: 60%; height: 200%;
+    background: radial-gradient(circle, rgba(196, 30, 58, 0.15) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.05)"/></svg>');
+    pointer-events: none;
+}
+
+.page-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.breadcrumb {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.breadcrumb a {
+    color: #FFB6C1;
+    transition: color 0.3s;
+}
+
+.breadcrumb a:hover { color: #fff; }
+
+.breadcrumb i {
+    margin: 0 8px;
+    font-size: 0.75rem;
+}
+
+.page-hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.page-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ================= MAIN CONTENT ================= */
+.main-content {
+    padding: 60px 0;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-tag {
+    display: inline-block;
+    background: var(--primary-red);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-header h2 {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    color: var(--primary-navy);
+    margin-bottom: 15px;
+}
+
+.title-underline {
+    width: 80px;
+    height: 4px;
+    background: var(--primary-red);
+    margin: 0 auto 20px;
+    border-radius: 2px;
+}
+
+.section-subtitle {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* ================= 1. SYNOPSIS SECTION ================= */
+.synopsis-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.synopsis-text p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+.synopsis-text .highlight {
+    color: var(--primary-red);
+    font-weight: 600;
+}
+
+.synopsis-visual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.visual-card {
+    background: #fff;
+    padding: 25px 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 3px solid var(--primary-red);
+}
+
+.visual-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.visual-card i {
+    font-size: 2rem;
+    color: var(--primary-navy);
+    margin-bottom: 10px;
+    display: block;
+}
+
+.visual-card span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+/* ================= 2. PEO SECTION ================= */
+.peo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.peo-card {
+    background: #fff;
+    padding: 35px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-bottom: 4px solid var(--primary-red);
+}
+
+.peo-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.peo-number {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(196, 30, 58, 0.1);
+    line-height: 1;
+}
+
+.peo-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-red), #a01830);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.peo-icon i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.peo-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    color: var(--primary-navy);
+    margin-bottom: 12px;
+}
+
+.peo-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* ================= 3. PLO SECTION ================= */
+.plo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.plo-item {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-left: 4px solid var(--primary-navy);
+}
+
+.plo-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border-left-color: var(--primary-red);
+}
+
+.plo-badge {
+    display: inline-block;
+    background: var(--primary-navy);
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-family: var(--font-heading);
+}
+
+.plo-item p {
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* ================= 4. STRUCTURE TABLE ================= */
+.structure-table-wrapper {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.structure-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.structure-table thead {
+    background: var(--primary-navy);
+    color: #fff;
+}
+
+.structure-table th {
+    padding: 20px 25px;
+    text-align: left;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.structure-table td {
+    padding: 20px 25px;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1rem;
+}
+
+.structure-table td i {
+    color: var(--primary-red);
+    margin-right: 10px;
+    width: 20px;
+}
+
+.structure-table td strong {
+    color: var(--primary-navy);
+}
+
+.structure-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.structure-table tbody tr:hover {
+    background: #fafafa;
+}
+
+/* ================= 5. CAREER SECTION ================= */
+.career-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.career-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s;
+    border-top: 3px solid transparent;
+}
+
+.career-card:hover {
+    transform: translateY(-8px);
+    border-top-color: var(--primary-red);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.career-card.featured {
+    background: linear-gradient(135deg, var(--primary-navy), #1a365d);
+    color: #fff;
+    grid-column: span 2;
+}
+
+.career-card.featured h4 {
+    color: #fff;
+}
+
+.career-card.featured .career-icon {
+    background: var(--primary-red);
+}
+
+.career-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(196, 30, 58, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    transition: background 0.3s;
+}
+
+.career-card:hover .career-icon {
+    background: var(--primary-red);
+}
+
+.career-icon i {
+    font-size: 1.5rem;
+    color: var(--primary-red);
+    transition: color 0.3s;
+}
+
+.career-card:hover .career-icon i {
+    color: #fff;
+}
+
+.career-card.featured .career-icon i {
+    color: #fff;
+}
+
+.career-card h4 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    color: var(--primary-navy);
+    font-weight: 600;
+}
+
+/* ================= FOOTER ================= */
+.main-footer {
+    background-color: var(--primary-navy);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover { color: var(--primary-red); }
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-social a {
+    width: 35px;
+    height: 35px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+}
+
+.footer-social a:hover { background: var(--primary-red); }
+
+.footer-copy {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+@media (max-width: 992px) {
+    .synopsis-content {
+        grid-template-columns: 1fr;
+    }
+    .peo-grid {
+        grid-template-columns: 1fr;
+    }
+    .plo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .career-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .career-card.featured {
+        grid-column: span 2;
+    }
+    .page-hero h1 { font-size: 2.4rem; }
+}
+
+@media (max-width: 768px) {
+    .header-flex { flex-direction: column; gap: 15px; }
+    .nav-links { flex-wrap: wrap; justify-content: center; }
+    .nav-links li a { padding: 10px 12px; font-size: 0.85rem; }
+    .logo { height: 50px; }
+    .page-hero h1 { font-size: 1.8rem; }
+    .page-hero p { font-size: 1rem; }
+    .section-header h2 { font-size: 1.6rem; }
+    .plo-grid {
+        grid-template-columns: 1fr;
+    }
+    .career-grid {
+        grid-template-columns: 1fr;
+    }
+    .career-card.featured {
+        grid-column: span 1;
+    }
+    .structure-table th,
+    .structure-table td {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}
